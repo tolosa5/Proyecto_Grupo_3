@@ -705,9 +705,10 @@ GameObject:
   - component: {fileID: 74972069}
   - component: {fileID: 74972068}
   - component: {fileID: 74972067}
+  - component: {fileID: 74972071}
   m_Layer: 0
   m_Name: Arbusto 1
-  m_TagString: Untagged
+  m_TagString: Setos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,6 +789,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74972071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74972066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe1006c13ef994897886825536e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &76925494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,9 +1223,10 @@ GameObject:
   - component: {fileID: 115370473}
   - component: {fileID: 115370472}
   - component: {fileID: 115370471}
+  - component: {fileID: 115370475}
   m_Layer: 0
   m_Name: Arbusto 2
-  m_TagString: Untagged
+  m_TagString: Setos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1293,6 +1307,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115370475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115370470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe1006c13ef994897886825536e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &118623618
 GameObject:
   m_ObjectHideFlags: 0
@@ -13984,9 +14010,10 @@ GameObject:
   - component: {fileID: 835546015}
   - component: {fileID: 835546014}
   - component: {fileID: 835546013}
+  - component: {fileID: 835546017}
   m_Layer: 0
   m_Name: Arbusto 5
-  m_TagString: Untagged
+  m_TagString: Setos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14067,6 +14094,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &835546017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835546012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe1006c13ef994897886825536e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &848986560
 GameObject:
   m_ObjectHideFlags: 0
@@ -14501,6 +14540,10 @@ PrefabInstance:
     - target: {fileID: 1105647070499597401, guid: dc5e287c4d56b264baf9a1badb910a48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677546246821865891, guid: dc5e287c4d56b264baf9a1badb910a48, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc5e287c4d56b264baf9a1badb910a48, type: 3}
@@ -17802,9 +17845,10 @@ GameObject:
   - component: {fileID: 1135529617}
   - component: {fileID: 1135529616}
   - component: {fileID: 1135529615}
+  - component: {fileID: 1135529619}
   m_Layer: 0
   m_Name: Arbusto 4
-  m_TagString: Untagged
+  m_TagString: Setos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17885,6 +17929,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1135529619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135529614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe1006c13ef994897886825536e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1153955110
 GameObject:
   m_ObjectHideFlags: 0
@@ -23977,9 +24033,10 @@ GameObject:
   - component: {fileID: 1417076726}
   - component: {fileID: 1417076725}
   - component: {fileID: 1417076724}
+  - component: {fileID: 1417076728}
   m_Layer: 0
   m_Name: Arbusto 3
-  m_TagString: Untagged
+  m_TagString: Setos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24060,6 +24117,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1417076728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417076723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe1006c13ef994897886825536e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1418092499
 GameObject:
   m_ObjectHideFlags: 0

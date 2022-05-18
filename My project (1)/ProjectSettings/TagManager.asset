@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Chest
+  - MiniKey
+  - BossKey
+  - Door
+  - BossDoor
+  - PickSword
+  - PickShield
+  - PickHook
+  - PickBow
+  - PickSpear
+  - Enemy
+  - Setos
   layers:
   - Default
   - TransparentFX
