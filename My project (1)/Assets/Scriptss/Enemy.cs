@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour
 
     public void Recoil(Vector3 recoilDirection)
     {
-
+        transform.position = Vector3.MoveTowards(transform.position, transform.position - recoilDirection, 3);
     }
 
     public void Death()

@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     Shield shieldScr;
     [SerializeField] GameObject shieldGO;
     bool shield;
+    float timer;
+    bool recoiling;
 
     [SerializeField] GameObject hookGO;
     bool hook;
@@ -176,7 +178,16 @@ public class Player : MonoBehaviour
 
     public void Recoil(Vector3 recoilDirection)
     {
+        while (recoiling)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position - recoilDirection, 3);
+            timer += Time.deltaTime;
+            if (timer >= 1)
+            {
+                recoiling = false;
 
+            }
+        }
     }
 
     public void TakeDamage(int damageTaken)
