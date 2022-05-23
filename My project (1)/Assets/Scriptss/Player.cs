@@ -71,26 +71,31 @@ public class Player : MonoBehaviour
                 //COGER ARMAS
                 if (hit.collider.gameObject.CompareTag("PickSword"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     swordGO.SetActive(true);
                     sword = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickShield"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     shieldGO.SetActive(true);
                     shield = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickHook"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     hookGO.SetActive(true);
                     hook = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickBow"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     bowGO.SetActive(true);
                     bow = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickSpear"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     spearGO.SetActive(true);
                     spear = true;
                 }
@@ -133,8 +138,6 @@ public class Player : MonoBehaviour
                         //pillar script, abrirla, animacion
                     }
                 }
-
-
             }
         }
 
@@ -142,8 +145,8 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             anim.SetTrigger("TriggerAttack");
-            swordScr.Atacking();
             atacando = true;
+            swordScr.Atacking();
         }
 
         //DEFENDERSE

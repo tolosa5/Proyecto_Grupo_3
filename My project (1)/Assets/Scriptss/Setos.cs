@@ -14,6 +14,7 @@ public class Setos : MonoBehaviour
 
     public void GetHit()
     {
+        Debug.Log("rompiendo");
         anim.SetTrigger("TriggerBreak");
         Destroy(gameObject, 2.5f);
     }

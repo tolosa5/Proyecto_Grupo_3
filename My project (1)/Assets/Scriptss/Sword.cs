@@ -30,8 +30,10 @@ public class Sword : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (Player.player.atacando == true && other.gameObject.layer == isAttackable)
+        Debug.Log("ey!");
+        if (Player.player.atacando == true && other.gameObject.layer == 9)
         {
+            Debug.Log("atacando");
             if (other.gameObject.CompareTag("Enemy"))
             {
 
@@ -58,6 +60,7 @@ public class Sword : MonoBehaviour
 
             else if (other.gameObject.CompareTag("Setos"))
             {
+                Debug.Log("seto: ay");
                 GameObject setosGO = other.gameObject;
                 Setos setosScr = setosGO.GetComponent<Setos>();
                 setosScr.GetHit();
