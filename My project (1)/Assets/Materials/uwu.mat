@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: uwu
-  m_Shader: {fileID: -6465566751694194690, guid: 46ae0501c0ce4934f9dbbc60e901a8cf, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 32c4a335b79ffa347b7271ca880af055, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -82,6 +82,7 @@ Material:
     - Vector1_db911b50653c4dc69b91a0924bdf581a: 0.1
     - Vector1_f6279c43db594d61aa597eb77c879c4e: 0.17
     - _AlphaClip: 0
+    - _AmbientStrength: 0.2
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -92,15 +93,18 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FalloffAmount: 0.02
+    - _FresnelSize: 0.25
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightingCutoff: 0.1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -113,8 +117,11 @@ Material:
     - Color_f4d6c50e8a79495c89fa429e3fc258e9: {r: 1, g: 0.8820755, b: 0.8820755, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColor: {r: 1, g: 0.15686275, b: 0.15686275, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 0.6933962, b: 0.6933962, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1942386392753440364
 MonoBehaviour:
