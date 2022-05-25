@@ -16,6 +16,7 @@ TagManager:
   - PickSpear
   - Enemy
   - Setos
+  - Button
   layers:
   - Default
   - TransparentFX

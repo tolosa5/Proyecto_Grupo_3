@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Player : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     bool key;
     bool bossKey;
 
+    [SerializeField] PlayableDirector bridgeCinematic;
     
     void Awake()
     {
@@ -55,7 +57,11 @@ public class Player : MonoBehaviour
         shieldScr = GetComponentInChildren<Shield>();
     }
 
-    
+    private void Start()
+    {
+        bridgeCinematic.Play();
+    }
+
     void Update()
     {
         Inputs();
