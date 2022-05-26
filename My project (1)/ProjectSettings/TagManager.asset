@@ -17,6 +17,7 @@ TagManager:
   - Enemy
   - Setos
   - Button
+  - BridgeCinematic
   layers:
   - Default
   - TransparentFX

@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
     bool key;
     bool bossKey;
 
+    bool busy;
     [SerializeField] PlayableDirector bridgeCinematic;
     
     void Awake()
@@ -59,7 +60,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        bridgeCinematic.Play();
+        
     }
 
     void Update()
@@ -183,6 +184,25 @@ public class Player : MonoBehaviour
     public void AtackingFalse()
     {
         atacando = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("BridgeCinematic"))
+        {
+            GoBusy();
+            bridgeCinematic.Play();
+        }
+    }
+
+    void GoBusy()
+    {
+        busy = true;
+    }
+
+    void GoFree()
+    {
+        busy = false;
     }
 
     public void Recoil(Vector3 recoilDirection)
