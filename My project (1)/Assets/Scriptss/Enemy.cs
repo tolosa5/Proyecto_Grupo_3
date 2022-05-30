@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour
     public int lifes = 3;
     public int damage = 1;
 
+    float distanceToReturn = 5;
+    float onWaitingTimer = 2f;
+    Vector3 posInicial;
+    Vector3 target;
     //mano para ver si contacta con el player al atacar
     [SerializeField] Transform handAttack;
 
@@ -24,8 +28,12 @@ public class Enemy : MonoBehaviour
     //para el overlap, saber si pilla algo de player
     [SerializeField] LayerMask isPlayer;
 
+    enum States { Idle, Chase, Return};
+    States currentState;
     void Start()
     {
+        currentState = States.Idle;
+        posInicial = transform.position;
         agent = GetComponent<NavMeshAgent>();
 
         playerGO = GameObject.FindGameObjectWithTag("Player");
@@ -35,23 +43,67 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        agent.SetDestination(playerGO.transform.position);
+        //animInfo = anim.GetCurrentAnimatorStateInfo(0);
+        if(currentState == States.Idle)
+        {
+            //Para que me empiece a perseguir tras el puente.
+            if(Vector3.Distance(playerGO.transform.position, transform.position) < 4)
+            {
+                Debug.Log("Chase");
+                target = playerGO.transform.position;
+                agent.SetDestination(target);
+                currentState = States.Chase;
+            }
+
+        }
+        else if(currentState == States.Chase)
+        {
+            
+            agent.SetDestination(target);
+
+            if (agent.remainingDistance <= 1f )
+            {
+                Debug.Log("Attacking");
+                target = playerGO.transform.position;
+                agent.isStopped = true;
+                //anim.SetBool("AttackingBool", true);
+                //metodo ataque en el momento de la animacion, animation event
+            }
+            else if(agent.remainingDistance < distanceToReturn) //5
+            {
+                Debug.Log("Chasing");
+                target = playerGO.transform.position;
+                agent.isStopped = false;
+                onWaitingTimer = 2f;
+                
+            }
+            else if (agent.remainingDistance > distanceToReturn) // > que 5.
+            {
+                Debug.Log("Waiting");
+                target = posInicial;
+                agent.isStopped = true;
+                onWaitingTimer -= Time.deltaTime;
+                if (onWaitingTimer < 0)
+                {
+                    agent.isStopped = false;
+                    Debug.Log("Returning");
+
+                }
+
+            }
+            else
+            {
+                //if (!animInfo.IsName("Enemy@Attack"))
+                //{
+                    //agent.isStopped = false;
+                    //anim.SetBool("AttackingBool", false);
+                //}
+            }
+
+        }
+       
 
         //si esta a menos de 2f el stoppingDistance del navMesh, pararse DE GOLPE
-        if (agent.remainingDistance <= 1f)
-        {
-            agent.isStopped = true;
-            anim.SetBool("AttackingBool", true);
-            //metodo ataque en el momento de la animacion, animation event
-        }
-        else
-        {
-            if (!animInfo.IsName("Enemy@Attack"))
-            {
-                agent.isStopped = false;
-                anim.SetBool("AttackingBool", false);
-            }
-        }
     }
 
     //se ejecuta desde evento de animaci�n, np
