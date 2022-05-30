@@ -198,28 +198,13 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "5bd4d2a2eb5b4b87a9cbb823842e8ff7",
-    "m_Id": 1,
-    "m_DisplayName": "Index",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Index",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
     "m_ObjectId": "7e04833646b94457bb0713b48d235466",
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "AditionalLights (Custom Function)",
+    "m_Name": "Aditional (Custom Function)",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -233,9 +218,6 @@
     "m_Slots": [
         {
             "m_Id": "f5a4d4d25d954bea98b413ec2b59134d"
-        },
-        {
-            "m_Id": "5bd4d2a2eb5b4b87a9cbb823842e8ff7"
         },
         {
             "m_Id": "3c47c99f9b014b7690831257b29a057a"
@@ -258,7 +240,7 @@
         "m_SerializableColors": []
     },
     "m_SourceType": 0,
-    "m_FunctionName": "AditionalLights",
+    "m_FunctionName": "Aditional",
     "m_FunctionSource": "84d7b7bed3eb54c4a90d385b7d9655bd",
     "m_FunctionBody": "Enter function body here..."
 }

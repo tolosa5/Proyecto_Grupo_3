@@ -16,6 +16,8 @@ TagManager:
   - PickSpear
   - Enemy
   - Setos
+  - Button
+  - BridgeCinematic
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - Player
   - Ground
   - Hook
-  - 
+  - Atackable
   - 
   - 
   - 

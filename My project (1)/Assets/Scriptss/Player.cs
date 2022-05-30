@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class Player : MonoBehaviour
     Shield shieldScr;
     [SerializeField] GameObject shieldGO;
     bool shield;
+    float timer;
+    bool recoiling;
 
     [SerializeField] GameObject hookGO;
     bool hook;
@@ -33,6 +36,8 @@ public class Player : MonoBehaviour
     bool key;
     bool bossKey;
 
+    bool busy;
+    [SerializeField] PlayableDirector bridgeCinematic;
     
     void Awake()
     {
@@ -53,7 +58,11 @@ public class Player : MonoBehaviour
         shieldScr = GetComponentInChildren<Shield>();
     }
 
-    
+    private void Start()
+    {
+        
+    }
+
     void Update()
     {
         Inputs();
@@ -69,26 +78,31 @@ public class Player : MonoBehaviour
                 //COGER ARMAS
                 if (hit.collider.gameObject.CompareTag("PickSword"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     swordGO.SetActive(true);
                     sword = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickShield"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     shieldGO.SetActive(true);
                     shield = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickHook"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     hookGO.SetActive(true);
                     hook = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickBow"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     bowGO.SetActive(true);
                     bow = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickSpear"))
                 {
+                    hit.collider.gameObject.SetActive(false);
                     spearGO.SetActive(true);
                     spear = true;
                 }
@@ -131,8 +145,6 @@ public class Player : MonoBehaviour
                         //pillar script, abrirla, animacion
                     }
                 }
-
-
             }
         }
 
@@ -140,8 +152,8 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             anim.SetTrigger("TriggerAttack");
-            swordScr.Atacking();
             atacando = true;
+            swordScr.Atacking();
         }
 
         //DEFENDERSE
@@ -174,9 +186,37 @@ public class Player : MonoBehaviour
         atacando = false;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("BridgeCinematic"))
+        {
+            GoBusy();
+            bridgeCinematic.Play();
+        }
+    }
+
+    public void GoBusy()
+    {
+        busy = true;
+    }
+
+    public void GoFree()
+    {
+        busy = false;
+    }
+
     public void Recoil(Vector3 recoilDirection)
     {
+        while (recoiling)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position - recoilDirection, 3);
+            timer += Time.deltaTime;
+            if (timer >= 1)
+            {
+                recoiling = false;
 
+            }
+        }
     }
 
     public void TakeDamage(int damageTaken)
