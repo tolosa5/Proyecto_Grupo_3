@@ -15,11 +15,11 @@ C:/Users/CES/Documents/GitHub/Proyecto_Grupo_3/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59568
+56050
 Successfully changed project path to: C:/Users/CES/Documents/GitHub/Proyecto_Grupo_3/My project (1)
 C:/Users/CES/Documents/GitHub/Proyecto_Grupo_3/My project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 86.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,251 +36,275 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003149 seconds.
+Registered in 0.003272 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.706 seconds
+- Completed reload, in  5.117 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002103 seconds.
+Registered in 0.002606 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
+- Completed reload, in  1.188 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3151 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.7 MB.
-System memory in use after: 143.9 MB.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3598.
-Total: 2.907400 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.150000 ms MarkObjects: 2.380400 ms  DeleteObjects: 0.074200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Ainhoa/Fbx Armas/arco2.fbx
-  artifactKey: Guid(9ad3d4fa62843d84b92f0ab26ee4675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/arco2.fbx using Guid(9ad3d4fa62843d84b92f0ab26ee4675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb21e8fdaf3dfe12476ad16630946297') in 0.844101 seconds
-  Import took 0.849812 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3597.
+Total: 6.027000 ms (FindLiveObjects: 0.507000 ms CreateObjectMapping: 0.195600 ms MarkObjects: 5.223700 ms  DeleteObjects: 0.098800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Ainhoa/Fbx Armas/martillo herrero mapeado.fbx
-  artifactKey: Guid(1d42bff5a07d9f14f9bd46d8e085045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/martillo herrero mapeado.fbx using Guid(1d42bff5a07d9f14f9bd46d8e085045f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94139f1161e493444af7544c3970e0ce') in 0.306248 seconds
-  Import took 0.311134 seconds .
+  path: Assets/AdGetAditionalLight.shadersubgraph
+  artifactKey: Guid(c1ba0f991eacebb41bcb6c9f51abd892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdGetAditionalLight.shadersubgraph using Guid(c1ba0f991eacebb41bcb6c9f51abd892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbb69b8f799463259bbddcd12e1430a') in 0.055034 seconds
+  Import took 0.063242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/CM vcam1.prefab
+  artifactKey: Guid(bb541d7462b41d44e9e1e58dbe93e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CM vcam1.prefab using Guid(bb541d7462b41d44e9e1e58dbe93e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a57dab1da7468ee62f0b6766330b4c4') in 0.047365 seconds
+  Import took 0.055245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Cell.mat
+  artifactKey: Guid(28c81a44944e87a41a3b53c4b1bb6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell.mat using Guid(28c81a44944e87a41a3b53c4b1bb6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b12a591719593b167646bc5be195c5') in 0.575209 seconds
+  Import took 0.582260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Lukas/gnomo.fbx
+  artifactKey: Guid(0b59ca35879d51e4c9d4415fc0a55f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/gnomo.fbx using Guid(0b59ca35879d51e4c9d4415fc0a55f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a52c5afb854b193b0616252e784bc8') in 0.731238 seconds
+  Import took 0.736558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Lukas/personages
+  artifactKey: Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages using Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955d5ef2aadaae313195ec7dbc18c4ab') in 0.007907 seconds
+  Import took 0.013114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(dc5e287c4d56b264baf9a1badb910a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(dc5e287c4d56b264baf9a1badb910a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3612a5f6a7491bb24b8e6dbeda001548') in 0.029790 seconds
+  Import took 0.035832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Post processing Exterior.prefab
+  artifactKey: Guid(dd1418de90443e9489cdf1346607b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Post processing Exterior.prefab using Guid(dd1418de90443e9489cdf1346607b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed93809907875ec0bb5b6a5231977a4') in 0.008091 seconds
+  Import took 0.013999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Specular.shadersubgraph
+  artifactKey: Guid(52a60ed216a33574bb4282983dfb3b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Specular.shadersubgraph using Guid(52a60ed216a33574bb4282983dfb3b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4a7aff2f6d4641ea6af88ff13e51d4') in 0.007741 seconds
+  Import took 0.014790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/GetMainLight.shadersubgraph
+  artifactKey: Guid(2bd11bf501ca32a41a2e84723257acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetMainLight.shadersubgraph using Guid(2bd11bf501ca32a41a2e84723257acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f35dc7479591489f1e29f763daaf986') in 0.007060 seconds
+  Import took 0.013907 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000193 seconds.
+  path: Assets/Chest.prefab
+  artifactKey: Guid(99cfb2cdf139d8e42b2e673ba7dc83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chest.prefab using Guid(99cfb2cdf139d8e42b2e673ba7dc83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918a67fc833638e72ee36af2de95a415') in 0.393466 seconds
+  Import took 0.400815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/New Shader Sub Graph.shadersubgraph
+  artifactKey: Guid(427ae1bb8ae3997498b17443f333ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Sub Graph.shadersubgraph using Guid(427ae1bb8ae3997498b17443f333ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa0f170b65d1b34211cc02e9685dfd') in 0.008020 seconds
+  Import took 0.015549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ParticlesUnlit.mat
+  artifactKey: Guid(1b74ff984fbab44408c400d0ebcaa74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticlesUnlit.mat using Guid(1b74ff984fbab44408c400d0ebcaa74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01a2677ee9fd6b5534f47af6c3fd68e') in 0.018930 seconds
+  Import took 0.027830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Lukas
+  artifactKey: Guid(80dc4e35644f73e459f34c33cf3d8cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas using Guid(80dc4e35644f73e459f34c33cf3d8cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7ec5958b84d916fd56ba00d2593384') in 0.006502 seconds
+  Import took 0.013575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.613522 seconds.
+  path: Assets/Ainhoa/Objetos/yunque terminado.fbx
+  artifactKey: Guid(d7d2affe90c84ae438de394ae3c8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Objetos/yunque terminado.fbx using Guid(d7d2affe90c84ae438de394ae3c8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b845c884f116841a9e35775a897616') in 0.297887 seconds
+  Import took 0.304255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.306399 seconds.
+  path: Assets/Ainhoa/Fbx Armas/arco1.fbx
+  artifactKey: Guid(fbe20548859635542927cc56f801f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/arco1.fbx using Guid(fbe20548859635542927cc56f801f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97362d9dc0fecb81fe050e41b3d552a3') in 0.605736 seconds
+  Import took 0.611526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Ainhoa/Fbx Armas/arco2.fbx
+  artifactKey: Guid(9ad3d4fa62843d84b92f0ab26ee4675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/arco2.fbx using Guid(9ad3d4fa62843d84b92f0ab26ee4675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb21e8fdaf3dfe12476ad16630946297') in 0.038302 seconds
+  Import took 0.043702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
   path: Assets/Ainhoa/Fbx Armas/ballesta.fbx
   artifactKey: Guid(b640b127c67fea54cb70e3063bfdab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/ballesta.fbx using Guid(b640b127c67fea54cb70e3063bfdab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01c7f4a589ee55bbff6e0a1375fbdb') in 0.041773 seconds
-  Import took 0.046802 seconds .
+Start importing Assets/Ainhoa/Fbx Armas/ballesta.fbx using Guid(b640b127c67fea54cb70e3063bfdab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01c7f4a589ee55bbff6e0a1375fbdb') in 0.036161 seconds
+  Import took 0.041378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
+  Time since last request: 0.000188 seconds.
   path: Assets/Ainhoa/Fbx Armas/escudo4.fbx
   artifactKey: Guid(e873b7c843c2f584b8bf0c377031a35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/escudo4.fbx using Guid(e873b7c843c2f584b8bf0c377031a35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e134a39790e72def7951aba4fc1db6b7') in 0.038051 seconds
-  Import took 0.043764 seconds .
+Start importing Assets/Ainhoa/Fbx Armas/escudo4.fbx using Guid(e873b7c843c2f584b8bf0c377031a35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e134a39790e72def7951aba4fc1db6b7') in 0.029162 seconds
+  Import took 0.034202 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
+  Time since last request: 0.000183 seconds.
   path: Assets/Ainhoa/Fbx Armas/escudo3.fbx
   artifactKey: Guid(741a24415ee4bfd48984e0a4de329266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/escudo3.fbx using Guid(741a24415ee4bfd48984e0a4de329266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda5059a9ee6b73a10c46ee5e977ab2') in 0.035962 seconds
-  Import took 0.041730 seconds .
+Start importing Assets/Ainhoa/Fbx Armas/escudo3.fbx using Guid(741a24415ee4bfd48984e0a4de329266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda5059a9ee6b73a10c46ee5e977ab2') in 0.031489 seconds
+  Import took 0.036627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ainhoa/Fbx Armas/carcaj mapeado.fbx
+  artifactKey: Guid(e27178868cb594642b4c89bee884ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/carcaj mapeado.fbx using Guid(e27178868cb594642b4c89bee884ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b857cf61e7636ae4c0edfd678e62c') in 0.056043 seconds
+  Import took 0.061197 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000184 seconds.
-  path: Assets/Ainhoa/Fbx Armas/flecha2.fbx
-  artifactKey: Guid(fcbac4fce8cab504083777a2d50ff64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/flecha2.fbx using Guid(fcbac4fce8cab504083777a2d50ff64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a437a0f56d6e938ad59db2cf6d6b0') in 0.036371 seconds
-  Import took 0.041862 seconds .
+  path: Assets/Ainhoa/Fbx Armas/espada2.fbx
+  artifactKey: Guid(dae3aeea4f999e441ad0d65fd533cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/espada2.fbx using Guid(dae3aeea4f999e441ad0d65fd533cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f008a1907ce00a1edf6ed5a3c12158') in 0.631728 seconds
+  Import took 0.636853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Ainhoa/Fbx Armas/escudo1.fbx
+  artifactKey: Guid(34e77571163c86f4fb779ecf7561d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/escudo1.fbx using Guid(34e77571163c86f4fb779ecf7561d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd76d861ded698143d12e4a1cc1cbbed') in 0.035513 seconds
+  Import took 0.040555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ainhoa/Fbx Armas/espada1.fbx
+  artifactKey: Guid(c8173ef1c20f9b841b4a369c7a8ac6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/espada1.fbx using Guid(c8173ef1c20f9b841b4a369c7a8ac6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b64b9859911a6bbac4326832fe978b') in 0.027525 seconds
+  Import took 0.032919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ainhoa/Fbx Armas/escudo2.fbx
+  artifactKey: Guid(7dc5efd89661ad04b9ddefe6f0da3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/escudo2.fbx using Guid(7dc5efd89661ad04b9ddefe6f0da3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef78009c684fcbf727bc5491b70f338') in 0.024449 seconds
+  Import took 0.029244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Ainhoa/Fbx Armas/flecha1.fbx
+  artifactKey: Guid(dba6067cc5465f2438112f939048bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/flecha1.fbx using Guid(dba6067cc5465f2438112f939048bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773c3c5f40fdd3f92a99fefbae7c5c6') in 0.023728 seconds
+  Import took 0.028873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Ainhoa/Fbx Armas/espada enemigo.fbx
+  artifactKey: Guid(601d62c7b049ad04f97a6a9f8ad1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Fbx Armas/espada enemigo.fbx using Guid(601d62c7b049ad04f97a6a9f8ad1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3cddf04e8d9665b5b9a45ca6352831') in 0.025817 seconds
+  Import took 0.031779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.478882 seconds.
+  path: Assets/Lukas/personages/aspas.fbx
+  artifactKey: Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/aspas.fbx using Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3e946e836f69bfe49e64f89ffd7b9b') in 0.039086 seconds
+  Import took 0.044928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/Molino.fbx
+  artifactKey: Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/Molino.fbx using Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1199dc14c60b734a58f2dbafff10db31') in 0.033646 seconds
+  Import took 0.038850 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000180 seconds.
-  path: Assets/Ainhoa/Fbx Armas/lanza1 mapeada.fbx
-  artifactKey: Guid(c6fb95ceb9c14ad4680272db941dd2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/lanza1 mapeada.fbx using Guid(c6fb95ceb9c14ad4680272db941dd2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303bc4d5c5fccfdc9af8249b3605e774') in 0.024871 seconds
-  Import took 0.030871 seconds .
+  path: Assets/Lukas/personages/Casa cartoon.fbx
+  artifactKey: Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/Casa cartoon.fbx using Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402625d508c1abd31aa816fa25848e73') in 0.034000 seconds
+  Import took 0.038962 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Ainhoa/Fbx Armas/carcaj mapeado.fbx
-  artifactKey: Guid(e27178868cb594642b4c89bee884ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/carcaj mapeado.fbx using Guid(e27178868cb594642b4c89bee884ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b857cf61e7636ae4c0edfd678e62c') in 0.059714 seconds
-  Import took 0.065245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Ainhoa/Fbx Armas/arco1.fbx
-  artifactKey: Guid(fbe20548859635542927cc56f801f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/arco1.fbx using Guid(fbe20548859635542927cc56f801f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97362d9dc0fecb81fe050e41b3d552a3') in 0.028458 seconds
-  Import took 0.033633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Ainhoa/Fbx Armas/espada2.fbx
-  artifactKey: Guid(dae3aeea4f999e441ad0d65fd533cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/espada2.fbx using Guid(dae3aeea4f999e441ad0d65fd533cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f008a1907ce00a1edf6ed5a3c12158') in 0.639016 seconds
-  Import took 0.644253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Ainhoa/Fbx Armas/escudo1.fbx
-  artifactKey: Guid(34e77571163c86f4fb779ecf7561d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/escudo1.fbx using Guid(34e77571163c86f4fb779ecf7561d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd76d861ded698143d12e4a1cc1cbbed') in 0.040838 seconds
-  Import took 0.045784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Ainhoa/Fbx Armas/espada1.fbx
-  artifactKey: Guid(c8173ef1c20f9b841b4a369c7a8ac6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/espada1.fbx using Guid(c8173ef1c20f9b841b4a369c7a8ac6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b64b9859911a6bbac4326832fe978b') in 0.040499 seconds
-  Import took 0.045451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Ainhoa/Fbx Armas/lanza2 mapeada.fbx
-  artifactKey: Guid(1e27d7c5411eb764a8c5bffadf94f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/lanza2 mapeada.fbx using Guid(1e27d7c5411eb764a8c5bffadf94f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ffd37c71137ed0fa18f994e30868da') in 0.040793 seconds
-  Import took 0.046186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Ainhoa/Objetos/yunque terminado.fbx
-  artifactKey: Guid(d7d2affe90c84ae438de394ae3c8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/yunque terminado.fbx using Guid(d7d2affe90c84ae438de394ae3c8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b845c884f116841a9e35775a897616') in 0.027636 seconds
-  Import took 0.032609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Ainhoa/Fbx Armas
-  artifactKey: Guid(9d7b887eeeebbf5418bef5aea9d2844a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas using Guid(9d7b887eeeebbf5418bef5aea9d2844a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dbd3a5d633fbd3fe9b741914c05b67') in 0.006307 seconds
-  Import took 0.011191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Ainhoa/Fbx Armas/escudo2.fbx
-  artifactKey: Guid(7dc5efd89661ad04b9ddefe6f0da3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/escudo2.fbx using Guid(7dc5efd89661ad04b9ddefe6f0da3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef78009c684fcbf727bc5491b70f338') in 0.043367 seconds
-  Import took 0.049194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Ainhoa/Fbx Armas/flecha1.fbx
-  artifactKey: Guid(dba6067cc5465f2438112f939048bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/flecha1.fbx using Guid(dba6067cc5465f2438112f939048bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773c3c5f40fdd3f92a99fefbae7c5c6') in 0.034270 seconds
-  Import took 0.039303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Ainhoa/Fbx Armas/espada enemigo.fbx
-  artifactKey: Guid(601d62c7b049ad04f97a6a9f8ad1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Fbx Armas/espada enemigo.fbx using Guid(601d62c7b049ad04f97a6a9f8ad1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3cddf04e8d9665b5b9a45ca6352831') in 0.035760 seconds
-  Import took 0.040926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.412467 seconds.
-  path: Assets/Lukas
-  artifactKey: Guid(80dc4e35644f73e459f34c33cf3d8cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas using Guid(80dc4e35644f73e459f34c33cf3d8cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfceadc59e92f101c04fdbb73486b263') in 0.007056 seconds
-  Import took 0.013387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.526643 seconds.
-  path: Assets/Lukas/personages
-  artifactKey: Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages using Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a5fec97dfec2d3ab58d1da78194fca') in 0.007773 seconds
-  Import took 0.014041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.003337 seconds.
-  path: Assets/Lukas/scenas
-  artifactKey: Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/scenas using Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fddea59c7bb5fd5e1477fb9862c3ff6') in 0.007709 seconds
-  Import took 0.013859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.868821 seconds.
-  path: Assets/Lukas/personages/Gnomo.max
-  artifactKey: Guid(754ffdbcd563a5e4481ab2e4f830ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/Gnomo.max using Guid(754ffdbcd563a5e4481ab2e4f830ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad9ca0db1631b7da68e6e24ad115581') in 0.010046 seconds
-  Import took 0.016438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027516 seconds.
-  path: Assets/Lukas/personages/Gnomo.max
-  artifactKey: Guid(754ffdbcd563a5e4481ab2e4f830ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/Gnomo.max using Guid(754ffdbcd563a5e4481ab2e4f830ce1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad9ca0db1631b7da68e6e24ad115581') in 0.002958 seconds
-  Import took 0.010586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8918.895115 seconds.
-  path: Assets/Lukas/personages/gnomos mapeados.ma
-  artifactKey: Guid(c714676eb322c4442bcfa443a11a5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos mapeados.ma using Guid(c714676eb322c4442bcfa443a11a5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454c3c1fdbd92464b4e63867aa0e629c') in 0.010037 seconds
-  Import took 0.017228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000835 seconds.
-  path: Assets/Lukas/personages/gnomos mapeados.ma
-  artifactKey: Guid(c714676eb322c4442bcfa443a11a5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos mapeados.ma using Guid(c714676eb322c4442bcfa443a11a5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454c3c1fdbd92464b4e63867aa0e629c') in 0.002945 seconds
-  Import took 0.008931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.246546 seconds.
-  path: Assets/Lukas/personages/gnomos mapeados.mb
-  artifactKey: Guid(0d5bc6f4463b00740827ebc70008fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos mapeados.mb using Guid(0d5bc6f4463b00740827ebc70008fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a098802c7d66e99e2da2c32b9569af1') in 0.004995 seconds
-  Import took 0.011200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 285.207094 seconds.
-  path: Assets/gnomo.fbx
-  artifactKey: Guid(0b59ca35879d51e4c9d4415fc0a55f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/gnomo.fbx using Guid(0b59ca35879d51e4c9d4415fc0a55f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211bcab114b1df3b976c90a0856cc061') in 0.079981 seconds
-  Import took 0.085955 seconds .
+  Time since last request: 15.055393 seconds.
+  path: Assets/Lukas/personages/casitas
+  artifactKey: Guid(7697196c869148b42af812cca301aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas using Guid(7697196c869148b42af812cca301aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df20a6cec621480145e0bce243d305a') in 0.006377 seconds
+  Import took 0.012431 seconds .
 
