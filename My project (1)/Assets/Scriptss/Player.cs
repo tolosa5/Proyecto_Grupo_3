@@ -195,12 +195,12 @@ public class Player : MonoBehaviour
         }
     }
 
-    void GoBusy()
+    public void GoBusy()
     {
         busy = true;
     }
 
-    void GoFree()
+    public void GoFree()
     {
         busy = false;
     }
