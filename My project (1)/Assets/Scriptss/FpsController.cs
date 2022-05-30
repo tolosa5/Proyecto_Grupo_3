@@ -69,7 +69,10 @@ public class FpsController : MonoBehaviour
         {
             default:
             case State.Normal:
-                Movement();
+                if (!Player.player.busy)
+                {
+                    Movement();
+                }
                 if (!preparingDash)
                 {
                     Inputs();

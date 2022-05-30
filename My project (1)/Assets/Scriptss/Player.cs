@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
 {
     public static Player player;
 
+    public Vector3 newScenePosPlayer;
+
+    RaycastHit hit;
 
     [SerializeField] LayerMask isInteractable;
     [SerializeField] Transform attackSpot;
@@ -36,8 +39,9 @@ public class Player : MonoBehaviour
     bool key;
     bool bossKey;
 
-    bool busy;
+    public bool busy;
     [SerializeField] PlayableDirector bridgeCinematic;
+    [SerializeField] GameObject cinematicTrigger;
     
     void Awake()
     {
@@ -54,7 +58,6 @@ public class Player : MonoBehaviour
 
         anim = GetComponent<Animator>();
 
-        swordScr = GetComponentInChildren<Sword>();
         shieldScr = GetComponentInChildren<Shield>();
     }
 
@@ -72,7 +75,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            RaycastHit hit;
+            
             if (Physics.Raycast(transform.position, transform.forward, out hit, 5, isInteractable))
             {
                 //COGER ARMAS
@@ -81,6 +84,7 @@ public class Player : MonoBehaviour
                     hit.collider.gameObject.SetActive(false);
                     swordGO.SetActive(true);
                     sword = true;
+                    swordScr = GetComponentInChildren<Sword>();
                 }
                 else if (hit.collider.gameObject.CompareTag("PickShield"))
                 {
@@ -105,6 +109,12 @@ public class Player : MonoBehaviour
                     hit.collider.gameObject.SetActive(false);
                     spearGO.SetActive(true);
                     spear = true;
+                }
+
+                //NPC
+                else if (hit.collider.gameObject.CompareTag("NPC"))
+                {
+                    Talking();
                 }
 
                 //COFRE
@@ -177,7 +187,19 @@ public class Player : MonoBehaviour
         {
             anim.SetTrigger("TriggerBowShot");
         }
-        
+    }
+
+    void Talking()
+    {
+        NPC npcScr = hit.collider.gameObject.GetComponent<NPC>();
+        if (!npcScr.talking)
+        {
+            npcScr.Talk();
+        }
+        else
+        {
+            npcScr.AutoComplete();
+        }
     }
 
     //animation event para que al acabar la animacion de ataque se ponga a false
@@ -192,6 +214,7 @@ public class Player : MonoBehaviour
         {
             GoBusy();
             bridgeCinematic.Play();
+            cinematicTrigger.SetActive(false);
         }
     }
 
