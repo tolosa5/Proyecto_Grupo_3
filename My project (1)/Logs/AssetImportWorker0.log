@@ -15,11 +15,11 @@ J:/CES - Animación 3D/Realización/Trabajo Final/Proyecto_Grupo_3/My project (1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55104
+64527
 Successfully changed project path to: J:/CES - Animación 3D/Realización/Trabajo Final/Proyecto_Grupo_3/My project (1)
 J:/CES - Animación 3D/Realización/Trabajo Final/Proyecto_Grupo_3/My project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 61.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,339 +36,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003253 seconds.
+Registered in 0.003200 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 81.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.842 seconds
+- Completed reload, in  2.364 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002110 seconds.
+Registered in 0.002387 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
+- Completed reload, in  1.219 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 147.9 MB.
 System memory in use after: 148.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3600.
-Total: 2.445400 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.147400 ms MarkObjects: 1.896000 ms  DeleteObjects: 0.080700 ms)
+Total: 2.515900 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.181200 ms MarkObjects: 1.946800 ms  DeleteObjects: 0.083500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Ainhoa/Objetos/yunque
-  artifactKey: Guid(188e49d4656579f4f93b2515a8448711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/yunque using Guid(188e49d4656579f4f93b2515a8448711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4effb7603373ff8faa9cb2942dd1aa') in 0.014033 seconds
-  Import took 0.022053 seconds .
+  path: Assets/Ainhoa/Prota/prota.fbx
+  artifactKey: Guid(3ac52066d2d1c9646820166e0b173b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Prota/prota.fbx using Guid(3ac52066d2d1c9646820166e0b173b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d6e6e5883400a9793eb863d5efaf0') in 1.000391 seconds
+  Import took 1.006227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.785789 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas
-  artifactKey: Guid(04d6fad0cd8a5d94c90e6e524bb9e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas using Guid(04d6fad0cd8a5d94c90e6e524bb9e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4696afe866a128297de5dbfd28aae594') in 0.034538 seconds
-  Import took 0.040347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.392712 seconds.
-  path: Assets/Ainhoa/Objetos/llave pequeña mapeada.fbx
-  artifactKey: Guid(36c83b3ae19a559439ad3e023a2556aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/llave pequeña mapeada.fbx using Guid(36c83b3ae19a559439ad3e023a2556aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5ce18dbb3b1a75c968e18548d07341') in 0.646128 seconds
-  Import took 0.652093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.490640 seconds.
-  path: Assets/Ainhoa/Objetos/Parte Principal llave mapeada.fbx
-  artifactKey: Guid(237749beb85cb074496b104e7d5fd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Parte Principal llave mapeada.fbx using Guid(237749beb85cb074496b104e7d5fd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e7d447694728e310d1987c8ffcf4ac') in 0.315188 seconds
-  Import took 0.321292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5978.761521 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande
-  artifactKey: Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande using Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacfee930c5f8d86401084d48a9006a8') in 0.008106 seconds
-  Import took 0.023122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001081 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande
-  artifactKey: Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande using Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacfee930c5f8d86401084d48a9006a8') in 0.006398 seconds
-  Import took 0.012654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.450771 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle
-  artifactKey: Guid(fa09159b3edaab94f8e9c4f026a7ff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle using Guid(fa09159b3edaab94f8e9c4f026a7ff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7763472b3a4f536ebb6e90fe5af07f45') in 0.032392 seconds
-  Import took 0.038566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.139620 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal
-  artifactKey: Guid(750e8eafccd333a42b330f0db0da9e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal using Guid(750e8eafccd333a42b330f0db0da9e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e70a67e71e5962c4c123c410edb4b2') in 0.009059 seconds
-  Import took 0.034212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.947682 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Base_color.png
-  artifactKey: Guid(63f2b16b41e589346ab5e70024ae02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Base_color.png using Guid(63f2b16b41e589346ab5e70024ae02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62b3d99e5b4247157cd65c2c11d7738') in 0.080623 seconds
-  Import took 0.122038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Metallic.png
-  artifactKey: Guid(b4b1d11692ee79e4db6747e0294ffad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Metallic.png using Guid(b4b1d11692ee79e4db6747e0294ffad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d45cde5d54124dcf24ecbbc956fefe8') in 0.011642 seconds
-  Import took 0.054690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Mixed_AO.png
-  artifactKey: Guid(31af099af7cc3a94ab3f4bd66fb1e627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Mixed_AO.png using Guid(31af099af7cc3a94ab3f4bd66fb1e627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f8868bd0fadd61e7ef7f1754b670f3') in 0.012501 seconds
-  Import took 0.032044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal_DirectX.png
-  artifactKey: Guid(1f4dd674de14dde488d2c246e446347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal_DirectX.png using Guid(1f4dd674de14dde488d2c246e446347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd873d463d943c7a8aa180a82a57cc98') in 0.035643 seconds
-  Import took 0.041632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Roughness.png
-  artifactKey: Guid(01a011276946ffe40897ed68c45b85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Roughness.png using Guid(01a011276946ffe40897ed68c45b85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e704d052a7e80dfe151eed2fd0c8d57') in 0.011678 seconds
-  Import took 0.028274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Scattering.png
-  artifactKey: Guid(33689be3ab4fd2141896dee539756eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Scattering.png using Guid(33689be3ab4fd2141896dee539756eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204c80e23025bb8d6212ca8cd0fcf7fb') in 0.025346 seconds
-  Import took 0.041409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Height.png
-  artifactKey: Guid(36ea4688f8f01fd4f8f46667f2bdeddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Height.png using Guid(36ea4688f8f01fd4f8f46667f2bdeddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2bc2ee26ffb9b3eaf76b64e7cd6dcc') in 0.022181 seconds
-  Import took 0.027295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal.png
-  artifactKey: Guid(a2ad727662805544bb5d02e77d3fe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal.png using Guid(a2ad727662805544bb5d02e77d3fe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d63fb564a3ba961525b85d4f510f84') in 0.035882 seconds
-  Import took 0.041533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006530 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal.png
-  artifactKey: Guid(a2ad727662805544bb5d02e77d3fe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/cristal_detalle/BossKeyRed_mat_Normal.png using Guid(a2ad727662805544bb5d02e77d3fe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d63fb564a3ba961525b85d4f510f84') in 0.007310 seconds
-  Import took 0.013143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.643038 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Base_color.png
-  artifactKey: Guid(35605b39277330f4aaae93e33166084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Base_color.png using Guid(35605b39277330f4aaae93e33166084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7bb66eaad69cc8971a42ca46adb67') in 0.013830 seconds
-  Import took 0.019834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Metallic.png
-  artifactKey: Guid(37576baab872aca4baedc2f98b9f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Metallic.png using Guid(37576baab872aca4baedc2f98b9f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c18ac3ab9fb54787bf2255cef0ffdf') in 0.011530 seconds
-  Import took 0.017755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Mixed_AO.png
-  artifactKey: Guid(7611aaff7d8b9a447bb5019a91bc11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Mixed_AO.png using Guid(7611aaff7d8b9a447bb5019a91bc11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fd370389da708bd9b33ed9031c59cd') in 0.020018 seconds
-  Import took 0.040171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Base_color.png
-  artifactKey: Guid(35605b39277330f4aaae93e33166084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Base_color.png using Guid(35605b39277330f4aaae93e33166084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7bb66eaad69cc8971a42ca46adb67') in 0.010431 seconds
-  Import took 0.015954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Roughness.png
-  artifactKey: Guid(90eb994d8415dc74e96bfa2cb3a2b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Roughness.png using Guid(90eb994d8415dc74e96bfa2cb3a2b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc59f151b67bf783bdd1bda168f3a365') in 0.011774 seconds
-  Import took 0.017168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Scattering.png
-  artifactKey: Guid(3937beaf6aa1cea43b4de1e2b04133db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Scattering.png using Guid(3937beaf6aa1cea43b4de1e2b04133db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482133d0e9fbbe23ecd2a7b97c36e4da') in 0.011405 seconds
-  Import took 0.034468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Height.png
-  artifactKey: Guid(ded00a179c0fc624b87ab6b82368afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Height.png using Guid(ded00a179c0fc624b87ab6b82368afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a477f719bad6c8ddc0889f3ab3328') in 0.011778 seconds
-  Import took 0.017116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Normal.png
-  artifactKey: Guid(bfa3cd3537e031e4395faad3a1fbd5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Normal.png using Guid(bfa3cd3537e031e4395faad3a1fbd5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9f80fe64825e13f3fef160baef7d51') in 0.011851 seconds
-  Import took 0.017352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Normal_DirectX.png
-  artifactKey: Guid(70c038f73739554419b08cbd5fafcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas llave grande/parte principal/lambert1_Normal_DirectX.png using Guid(70c038f73739554419b08cbd5fafcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e449160bd8ac1b2deb8841d73604a1b') in 0.023166 seconds
-  Import took 0.029325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.818262 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña
-  artifactKey: Guid(571ce329869fb06449fe8c3f9fa82789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña using Guid(571ce329869fb06449fe8c3f9fa82789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b407d81bac74a50dad371e3cca569677') in 0.020352 seconds
-  Import took 0.040318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.255071 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Grande
-  artifactKey: Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Grande using Guid(363cb6bc4e107ea49bf4d85322f1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f61312b3277ca0c33c327ecbe7ad00f') in 0.007188 seconds
-  Import took 0.013197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.467817 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Base_color.png
-  artifactKey: Guid(2628780a6dedec943826ed05ee018c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Base_color.png using Guid(2628780a6dedec943826ed05ee018c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba80c242c8e8f7dea6d21aff833ab1f') in 0.012345 seconds
-  Import took 0.018530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Metallic.png
-  artifactKey: Guid(7f190eb65887da94a8a7827e416aefe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Metallic.png using Guid(7f190eb65887da94a8a7827e416aefe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a43ace18774c09a7e1558593e9717') in 0.018288 seconds
-  Import took 0.032459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Mixed_AO.png
-  artifactKey: Guid(3ef2425ccb9c18e42a7a5b9751fd1107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Mixed_AO.png using Guid(3ef2425ccb9c18e42a7a5b9751fd1107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9d3b3a8d5a13fbfefcbec83d638630') in 0.014325 seconds
-  Import took 0.020008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Normal.png
-  artifactKey: Guid(233d954add9a13640a6352ebe9155ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Normal.png using Guid(233d954add9a13640a6352ebe9155ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52e8313d852110612d9d9dd4ae6b2c3') in 0.015465 seconds
-  Import took 0.072868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Base_color.png
-  artifactKey: Guid(2628780a6dedec943826ed05ee018c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Base_color.png using Guid(2628780a6dedec943826ed05ee018c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba80c242c8e8f7dea6d21aff833ab1f') in 0.013534 seconds
-  Import took 0.019186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Scattering.png
-  artifactKey: Guid(e0e8ece4dd1b7a147af1a4463b7405b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Scattering.png using Guid(e0e8ece4dd1b7a147af1a4463b7405b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a37e3c46d59927dab5f0f9ccf2d811') in 0.009981 seconds
-  Import took 0.078595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Normal_DirectX.png
-  artifactKey: Guid(9c364c09548276c47a978c5d55fe5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Normal_DirectX.png using Guid(9c364c09548276c47a978c5d55fe5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae65e343d48e200a74c6c0eb147e67d') in 0.013373 seconds
-  Import took 0.019231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Roughness.png
-  artifactKey: Guid(96be5a739bd146942a9f970ab7bc32bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Roughness.png using Guid(96be5a739bd146942a9f970ab7bc32bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf48466442d5622fcb430853c13ab08') in 0.014588 seconds
-  Import took 0.020275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Height.png
-  artifactKey: Guid(aabed3a518a0caf43a1f12c945009702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Texturas/Texturas Llave Pequeña/Key_mat_Height.png using Guid(aabed3a518a0caf43a1f12c945009702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7241a7d9400ba408119a08557b850c') in 0.017227 seconds
-  Import took 0.035452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.851319 seconds.
-  path: Assets/Ainhoa/Objetos/Detalle llave mapeado.fbx
-  artifactKey: Guid(07cdbfcb91b1a8449a4d90184a52681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ainhoa/Objetos/Detalle llave mapeado.fbx using Guid(07cdbfcb91b1a8449a4d90184a52681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2c5d857043803130f8d2dcdb1a3785') in 0.045081 seconds
-  Import took 0.065765 seconds .
+  Time since last request: 32.414326 seconds.
+  path: Assets/Ainhoa/Prota/prota.prefab
+  artifactKey: Guid(2105e291bdd02cd4cafbba062e8753f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Prota/prota.prefab using Guid(2105e291bdd02cd4cafbba062e8753f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb20bab792675a9e7bb012dbc298d4c') in 0.018156 seconds
+  Import took 0.024361 seconds .
 
