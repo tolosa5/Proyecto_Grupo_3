@@ -49,10 +49,4 @@ public class GameManager : MonoBehaviour
             animSlider = GameObject.FindGameObjectWithTag("Slider").GetComponent<Animator>();
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

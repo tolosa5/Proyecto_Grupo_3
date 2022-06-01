@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
     public static Player player;
 
-    public Vector3 newScenePosPlayer;
+    int lifes = 3;
+
+    //CANVAS
+    [SerializeField] GameObject lifesGO;
+    [SerializeField] GameObject weapons;
+    [SerializeField] Image[] lifesImage;
 
     RaycastHit hit;
 
@@ -244,6 +251,15 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damageTaken)
     {
+        lifes -= damageTaken;
+        if (lifes <= 0)
+        {
+            Death();
+        }
+    }
 
+    void Death()
+    {
+        //chimuelo
     }
 }
