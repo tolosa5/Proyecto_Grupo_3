@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] Animator anim;
+    //[SerializeField] Animator anim;
     [SerializeField] Vector3 newScenePosDoor;
     [SerializeField] int newSceneIndex;
 
@@ -25,8 +25,9 @@ public class Door : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            anim.SetTrigger("FadeOut");
+            //anim.SetTrigger("FadeOut");
             GameManager.gM.newScenePositionGm = newScenePosDoor;
+            Debug.Log("cruzado");
             StartCoroutine(WaitChanges());
         }
     }
@@ -34,6 +35,7 @@ public class Door : MonoBehaviour
     IEnumerator WaitChanges()
     {
         yield return new WaitForSeconds(1);
+        Debug.Log("de viaje pa");
         SceneManager.LoadScene(newSceneIndex);
     }
 }
