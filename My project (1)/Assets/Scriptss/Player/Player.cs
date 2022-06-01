@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
+//IMPORTANTE, ANIMACIONES SE HACEN EN PROTA
+
 public class Player : MonoBehaviour
 {
     public static Player player;
+    public GameObject prota;
 
     public Vector3 newScenePosPlayer;
 
@@ -63,7 +66,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        
+        prota = GameObject.FindGameObjectWithTag("Prota");
     }
 
     void Update()

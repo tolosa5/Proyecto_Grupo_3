@@ -18,6 +18,9 @@ TagManager:
   - Setos
   - Button
   - BridgeCinematic
+  - Arrow
+  - Shield
+  - Prota
   layers:
   - Default
   - TransparentFX
