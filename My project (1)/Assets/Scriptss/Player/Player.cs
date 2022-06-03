@@ -123,6 +123,11 @@ public class Player : MonoBehaviour
                 {
                     Talking();
                 }
+                else if (hit.collider.gameObject.CompareTag("Smith"))
+                {
+                    Talking();
+                    //poner un cofre como interactuable para abrirlo y pillar la llave
+                }
 
                 //COFRE
                 else if (hit.collider.gameObject.CompareTag("Chest"))
@@ -161,6 +166,14 @@ public class Player : MonoBehaviour
                         GameObject bossDoorGO = hit.collider.gameObject;
                         //pillar script, abrirla, animacion
                     }
+                }
+
+                //INTERACCIONES DUNGEON
+                else if (hit.collider.gameObject.CompareTag("Switch"))
+                {
+                    GameObject switchGO = hit.collider.gameObject;
+                    Switch switchScr = switchGO.GetComponent<Switch>();
+                    switchScr.Activate();
                 }
             }
         }

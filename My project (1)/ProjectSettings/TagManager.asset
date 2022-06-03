@@ -18,6 +18,7 @@ TagManager:
   - Setos
   - Button
   - BridgeCinematic
+  - NPC
   layers:
   - Default
   - TransparentFX
