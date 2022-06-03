@@ -1771,3 +1771,41 @@ System memory in use after: 161.7 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3897.
 Total: 4.309100 ms (FindLiveObjects: 0.607400 ms CreateObjectMapping: 0.282600 ms MarkObjects: 3.395400 ms  DeleteObjects: 0.021800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 329.945321 seconds.
+  path: Assets/Scriptss/Player/Player.cs
+  artifactKey: Guid(7b55e544911b7304183831fe70bd7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptss/Player/Player.cs using Guid(7b55e544911b7304183831fe70bd7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796df07f0d2495e410aa0be42fe4a3dc') in 0.015056 seconds
+  Import took 0.021609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023982 seconds.
+  path: Assets/Scriptss/Player/Player.cs
+  artifactKey: Guid(7b55e544911b7304183831fe70bd7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptss/Player/Player.cs using Guid(7b55e544911b7304183831fe70bd7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796df07f0d2495e410aa0be42fe4a3dc') in 0.074881 seconds
+  Import took 0.081018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3027 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.5 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 2.904700 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.407900 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
