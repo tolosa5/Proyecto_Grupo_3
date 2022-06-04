@@ -1040,3 +1040,4 @@ Received Import Request.
 Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_TextureAtlas_01.png using Guid(225da740038919f4ca9eaff413945956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4323b11ffc0894b989dcee013e975a1') in 0.006681 seconds
   Import took 0.011324 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
