@@ -238,6 +238,27 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay(Collision collision) 
+    {
+        if (collision.gameObject.CompareTag("Rock"))
+        {
+            Debug.Log("venite");
+            GameObject rockGO = collision.gameObject;
+            Rock rockScr = rockGO.GetComponent<Rock>();
+            rockScr.GetPushed();
+        }
+    }
+
+    private void OnCollisionExit(Collision collision) 
+    {
+        if (collision.gameObject.CompareTag("Rock"))
+        {
+            GameObject rockGO = collision.gameObject;
+            Rock rockScr = rockGO.GetComponent<Rock>();
+            rockScr.StopPushed();
+        }
+    }
+
     public void GoBusy()
     {
         busy = true;

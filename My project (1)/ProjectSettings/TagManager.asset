@@ -19,6 +19,7 @@ TagManager:
   - Button
   - BridgeCinematic
   - NPC
+  - Rock
   layers:
   - Default
   - TransparentFX
