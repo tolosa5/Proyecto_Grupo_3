@@ -31,6 +31,14 @@ public class DungeonMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (timesPressed == 2)
+        {
+            ActivatedPreassure();
+        }
+    }
+
+    void ActivatedPreassure()
+    {
         
     }
 }
