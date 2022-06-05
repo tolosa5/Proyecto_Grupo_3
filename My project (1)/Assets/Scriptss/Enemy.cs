@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour
 
     enum States { Idle, Chase, Return};
     States currentState;
+    
     void Start()
     {
         currentState = States.Idle;
@@ -66,7 +67,7 @@ public class Enemy : MonoBehaviour
                 Debug.Log("Attacking");
                 target = playerGO.transform.position;
                 agent.isStopped = true;
-                //anim.SetBool("AttackingBool", true);
+                anim.SetBool("AttackingBool", true);
                 //metodo ataque en el momento de la animacion, animation event
             }
             else if(agent.remainingDistance < distanceToReturn) //5
@@ -101,9 +102,6 @@ public class Enemy : MonoBehaviour
             }
 
         }
-       
-
-        //si esta a menos de 2f el stoppingDistance del navMesh, pararse DE GOLPE
     }
 
     //se ejecuta desde evento de animaci�n, np
@@ -148,6 +146,7 @@ public class Enemy : MonoBehaviour
 
     public void Death()
     {
-        
+        anim.SetTrigger("DeathTrigger");
+        //desaparecer, destruirse
     }
 }

@@ -58,9 +58,9 @@ public class Spear : MonoBehaviour
 
             else if (other.gameObject.CompareTag("Button"))
             {
-                GameObject buttonGO = other.gameObject;
-                Button buttonScr = buttonGO.GetComponent<Button>();
-                
+                GameObject switchGO = other.gameObject;
+                Switch switchScr = switchGO.GetComponent<Switch>();
+                switchScr.Activate();
             }
         }
     }
