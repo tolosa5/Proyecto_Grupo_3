@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
     bool bow;
     [SerializeField] GameObject spearGO;
     bool spear;
+
+    [SerializeField] GameObject chestSmith;
     
     Animator anim;
     public AnimatorStateInfo animState;
@@ -95,18 +97,6 @@ public class Player : MonoBehaviour
                     swordGO.SetActive(true);
                     sword = true;
                     swordScr = GetComponentInChildren<Sword>();
-                }
-                else if (hit.collider.gameObject.CompareTag("PickShield"))
-                {
-                    hit.collider.gameObject.SetActive(false);
-                    shieldGO.SetActive(true);
-                    shield = true;
-                }
-                else if (hit.collider.gameObject.CompareTag("PickHook"))
-                {
-                    hit.collider.gameObject.SetActive(false);
-                    hookGO.SetActive(true);
-                    hook = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickBow"))
                 {
@@ -202,14 +192,42 @@ public class Player : MonoBehaviour
         }
 
         //ARCO
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) && bow == true)
         {
+            bowGO.SetActive(true);
+            swordGO.SetActive(false);
+            shieldGO.SetActive(false);
             anim.SetBool("BoolBowCharge", true);
         }
-        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+        else if (Input.GetKeyUp(KeyCode.LeftArrow) && bow == true)
         {
             anim.SetTrigger("TriggerBowShot");
         }
+
+        //SPEAR
+        if (Input.GetKeyDown(KeyCode.RightArrow) && spear == true)
+        {
+            spearGO.SetActive(true);
+            swordGO.SetActive(false);
+            shieldGO.SetActive(false);
+            anim.SetBool("TriggerSpearAttack", true);
+        }
+    }
+
+    //anim event
+    void DesactivateBow()
+    {
+        bowGO.SetActive(false);
+        swordGO.SetActive(true);
+        shieldGO.SetActive(true);
+    }
+
+    //anim event
+    void DesactivateSpear()
+    {
+        spearGO.SetActive(false);
+        swordGO.SetActive(true);
+        shieldGO.SetActive(true);
     }
 
     void Talking()

@@ -35,10 +35,21 @@ public class DungeonMaster : MonoBehaviour
         {
             ActivatedPreassure();
         }
+        else if (timesPressed == 3)
+        {
+            ActivatedPreassure2();
+        }
     }
 
     void ActivatedPreassure()
     {
-        
+
+        timesPressed = 0;
+    }
+
+    void ActivatedPreassure2()
+    {
+
+        timesPressed = 0;
     }
 }
