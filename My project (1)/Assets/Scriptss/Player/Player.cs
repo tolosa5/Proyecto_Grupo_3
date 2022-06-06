@@ -5,9 +5,12 @@ using UnityEngine.Playables;
 using UnityEngine.UI;
 using TMPro;
 
+//IMPORTANTE, ANIMACIONES SE HACEN EN PROTA
+
 public class Player : MonoBehaviour
 {
     public static Player player;
+    public GameObject prota;
 
     int lifes = 3;
 
@@ -70,7 +73,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        
+        prota = GameObject.FindGameObjectWithTag("Prota");
     }
 
     void Update()
