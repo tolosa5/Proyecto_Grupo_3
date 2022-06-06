@@ -5,6 +5,7 @@ using UnityEngine;
 public class Switch : MonoBehaviour
 {
     [SerializeField] GameObject referencedGO;
+    [SerializeField] Animator bridgeAnim;
 
     private void OnCollisionEnter(Collision collision) 
     {
@@ -18,12 +19,12 @@ public class Switch : MonoBehaviour
     {
         if (referencedGO.CompareTag("BridgeMechanims"))
         {
-
+            //activar puente y asi, animacion y tal
         }
 
-        else if (referencedGO.CompareTag("DungeonMechanim"))
+        else if (referencedGO.CompareTag("DungeonMechanism"))
         {
-            
+            //activar lo que haga, dividir?
         }
     }
 

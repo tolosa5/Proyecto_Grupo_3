@@ -43,8 +43,8 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool shieldUp;
 
     public bool atacando;
-    bool key;
-    bool bossKey;
+    public int key;
+    public bool bossKey;
 
     public bool busy;
     [SerializeField] PlayableDirector bridgeCinematic;
@@ -142,7 +142,7 @@ public class Player : MonoBehaviour
                 else if (hit.collider.gameObject.CompareTag("MiniKey"))
                 {
                     Debug.Log("llaveChikita");
-                    key = true;
+                    key++;
                 }
                 else if (hit.collider.gameObject.CompareTag("BossKey"))
                 {
@@ -151,9 +151,9 @@ public class Player : MonoBehaviour
                 }
                 else if (hit.collider.gameObject.CompareTag("Door"))
                 {
-                    if (key)
+                    if (key >= 1)
                     {
-                        key = false;
+                        key--;
                         GameObject doorGO = hit.collider.gameObject;
                         //pillar script, abrirla, animacion
                     }
@@ -246,6 +246,7 @@ public class Player : MonoBehaviour
             GameObject rockGO = collision.gameObject;
             Rock rockScr = rockGO.GetComponent<Rock>();
             rockScr.GetPushed();
+            //SetActive(false) a las armas y demas
         }
     }
 
@@ -256,6 +257,7 @@ public class Player : MonoBehaviour
             GameObject rockGO = collision.gameObject;
             Rock rockScr = rockGO.GetComponent<Rock>();
             rockScr.StopPushed();
+            //SetActive(false) a las armas y demas
         }
     }
 

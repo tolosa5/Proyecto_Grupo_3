@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class GameManager : MonoBehaviour
@@ -13,6 +14,9 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector] public GameObject marco;
     [HideInInspector] public TextMeshProUGUI text;
+
+    [SerializeField] TextMeshProUGUI keysText;
+    [SerializeField] Image keysImage;
 
     private void OnEnable()
     {
@@ -37,6 +41,11 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         newScenePositionGm = Player.player.transform.position;
+    }
+
+    private void Update()
+    {
+        keysText.text = "Keys: " + Player.player.key;
     }
 
     void OnSceneLoaded(Scene loadedScene, LoadSceneMode loadMode)

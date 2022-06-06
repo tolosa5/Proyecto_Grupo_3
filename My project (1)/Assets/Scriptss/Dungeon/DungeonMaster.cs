@@ -6,7 +6,7 @@ public class DungeonMaster : MonoBehaviour
 {
     public static DungeonMaster sharedDM;
 
-    [Range(0, 2)]
+    [Range(0, 3)]
     public int timesPressed;
 
     // Start is called before the first frame update

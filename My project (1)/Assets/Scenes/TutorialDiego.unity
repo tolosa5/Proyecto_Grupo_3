@@ -15780,6 +15780,8 @@ MonoBehaviour:
   animSlider: {fileID: 0}
   marco: {fileID: 0}
   text: {fileID: 0}
+  keysText: {fileID: 0}
+  keysImage: {fileID: 0}
 --- !u!1 &1153955110
 GameObject:
   m_ObjectHideFlags: 0
@@ -34807,7 +34809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b55e544911b7304183831fe70bd7e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScenePosPlayer: {x: 0, y: 0, z: 0}
+  lifesGO: {fileID: 0}
+  weapons: {fileID: 0}
+  lifesImage: []
   isInteractable:
     serializedVersion: 2
     m_Bits: 8
@@ -34819,6 +34823,8 @@ MonoBehaviour:
   spearGO: {fileID: 2977527615717282887}
   shieldUp: 0
   atacando: 0
+  key: 0
+  bossKey: 0
   busy: 0
   bridgeCinematic: {fileID: 1894402464}
   cinematicTrigger: {fileID: 1812989020}

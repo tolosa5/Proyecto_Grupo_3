@@ -5,6 +5,7 @@ using UnityEngine;
 public class Rock : MonoBehaviour
 {
     Rigidbody rb;
+
     bool isPushed;
 
     // Start is called before the first frame update
