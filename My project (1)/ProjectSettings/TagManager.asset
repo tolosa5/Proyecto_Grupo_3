@@ -18,8 +18,9 @@ TagManager:
   - Setos
   - Button
   - BridgeCinematic
-  - NPC
-  - Rock
+  - Shooter
+  - Fireball
+  - DeathWall
   layers:
   - Default
   - TransparentFX
