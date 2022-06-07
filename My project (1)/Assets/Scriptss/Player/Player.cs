@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     public GameObject prota;
 
     int lifes = 3;
+    int totalLifes = 3;
+    int recargaVidas;
 
     //CANVAS
     [SerializeField] GameObject lifesGO;
@@ -239,6 +241,13 @@ public class Player : MonoBehaviour
             bridgeCinematic.Play();
             cinematicTrigger.SetActive(false);
         }
+        //---------------------
+        if (other.gameObject.CompareTag("Corazon"))
+        {
+            recargaVidas = totalLifes - lifes;
+            lifes += recargaVidas;
+        }
+        //---------------------
     }
 
     private void OnCollisionStay(Collision collision) 

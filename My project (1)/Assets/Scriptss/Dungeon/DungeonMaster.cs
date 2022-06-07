@@ -6,8 +6,14 @@ public class DungeonMaster : MonoBehaviour
 {
     public static DungeonMaster sharedDM;
 
+    GameObject dianaGO;
+    Diana dianaScr;
+
     [Range(0, 3)]
     public int timesPressed;
+
+    [SerializeField] GameObject wallGO;
+    [SerializeField] GameObject bridgeGO;
 
     // Start is called before the first frame update
 
@@ -25,7 +31,8 @@ public class DungeonMaster : MonoBehaviour
 
     void Start()
     {
-        
+        dianaGO = GameObject.FindGameObjectWithTag("Diana");
+        dianaScr = dianaGO.GetComponent<Diana>();
     }
 
     // Update is called once per frame
@@ -34,6 +41,11 @@ public class DungeonMaster : MonoBehaviour
         if (timesPressed == 2)
         {
             ActivatedPreassure();
+        }
+
+        if (dianaScr.arrowDetected == true)
+        {
+            bridgeGO.SetActive(true);
         }
     }
 
