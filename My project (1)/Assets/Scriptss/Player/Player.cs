@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             
-            if (Physics.Raycast(transform.position, transform.forward, out hit, 5, isInteractable))
+            if (Physics.Raycast(transform.position, prota.transform.forward, out hit, 2, isInteractable))
             {
                 //COGER ARMAS
                 if (hit.collider.gameObject.CompareTag("PickSword"))
@@ -256,6 +256,19 @@ public class Player : MonoBehaviour
             GoBusy();
             bridgeCinematic.Play();
             cinematicTrigger.SetActive(false);
+        }
+
+        else if (other.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed++;
+        }
+    }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed--;
         }
     }
 

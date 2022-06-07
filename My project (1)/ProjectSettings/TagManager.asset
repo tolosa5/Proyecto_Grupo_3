@@ -21,6 +21,10 @@ TagManager:
   - Shooter
   - Fireball
   - DeathWall
+  - Rock
+  - NPC
+  - Preassure
+  - Prota
   layers:
   - Default
   - TransparentFX

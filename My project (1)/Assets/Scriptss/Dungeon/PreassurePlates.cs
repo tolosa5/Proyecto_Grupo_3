@@ -5,26 +5,23 @@ using UnityEngine;
 public class PreassurePlates : MonoBehaviour
 {
 
+    void Update()
+    {
 
-    private void OnCollisionEnter(Collision collision)
+    }
+
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("Rock"))
         {
             DungeonMaster.sharedDM.timesPressed++;
-        }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-            DungeonMaster.sharedDM.timesPressed++;
+            Debug.Log("llegue");
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.CompareTag("Rock"))
-        {
-            DungeonMaster.sharedDM.timesPressed--;
-        }
-        else if (collision.gameObject.CompareTag("Player"))
         {
             DungeonMaster.sharedDM.timesPressed--;
         }
