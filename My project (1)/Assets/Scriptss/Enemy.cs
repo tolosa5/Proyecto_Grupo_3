@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     Vector3 posInicial;
     Vector3 target;
     //mano para ver si contacta con el player al atacar
-    [SerializeField] Transform handAttack;
+    [SerializeField] GameObject sword;
 
     NavMeshAgent agent;
 
@@ -24,6 +24,8 @@ public class Enemy : MonoBehaviour
     AnimatorStateInfo animInfo;
 
     public bool shield;
+
+    bool atacando;
 
     //para el overlap, saber si pilla algo de player
     [SerializeField] LayerMask isPlayer;
@@ -107,25 +109,29 @@ public class Enemy : MonoBehaviour
     //se ejecuta desde evento de animaci�n, np
     void Attack()
     {
-        //overlap ahi
-        Collider[] colls = Physics.OverlapSphere(handAttack.position, 0.3f, isPlayer);
-        if (colls.Length >= 1)
-        {
-            //si detecta player, bajar vidas
-            playerScr = playerGO.GetComponent<Player>();
-            float dotProduct = Vector3.Dot(playerGO.transform.forward, transform.forward);
-            
-            if(dotProduct < 0 && playerScr.shieldUp)
-            {
-                playerScr.Recoil(transform.forward);
-            }
-            
-            else
-            {
-                playerScr.TakeDamage(damage);
+        anim.SetTrigger("TriggerAttack");
+        atacando = true;
+        sword.GetComponent<BoxCollider>().enabled = true;
 
-            }
+        float dotProduct = Vector3.Dot(playerGO.transform.forward, transform.forward);
+            
+        if(dotProduct < 0 && playerScr.shieldUp)
+        {
+            playerScr.Recoil(transform.forward);
         }
+            
+        else
+        {
+            playerScr.TakeDamage(damage);
+
+        }
+        
+    }
+
+    //anim event
+    void StopAttack()
+    {
+        
     }
 
     public void TakeDamage(int enemyDamage)

@@ -79,7 +79,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5737544890681719103
 Transform:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7124214884619155259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -740,16 +740,28 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.00000049227
       objectReference: {fileID: 0}
     - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0055142
       objectReference: {fileID: 0}
     - target: {fileID: 2860205027875451291, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -782,6 +794,10 @@ PrefabInstance:
     - target: {fileID: 3241094184085302049, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
       propertyPath: m_Name
       value: prota 4.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241094184085302049, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}
+      propertyPath: m_TagString
+      value: Prota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35753dcc0b1eadc4282ef649d43f0f7a, type: 3}

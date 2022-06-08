@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
 
         shieldScr = GetComponentInChildren<Shield>();
+        swordScr = GetComponentInChildren<Sword>();
     }
 
     private void Start()
@@ -241,6 +242,7 @@ public class Player : MonoBehaviour
             bridgeCinematic.Play();
             cinematicTrigger.SetActive(false);
         }
+
         //---------------------
         if (other.gameObject.CompareTag("Corazon"))
         {

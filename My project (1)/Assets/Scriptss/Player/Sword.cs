@@ -39,6 +39,7 @@ public class Sword : MonoBehaviour
 
                 GameObject enemyGO = other.gameObject;
                 Enemy enemyScr = enemyGO.GetComponent<Enemy>();
+                Debug.Log("atacado enemigo");
 
                 float dotProduct = Vector3.Dot(enemyGO.transform.forward, Player.player.transform.forward);
 

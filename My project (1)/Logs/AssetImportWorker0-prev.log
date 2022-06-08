@@ -15,11 +15,11 @@ C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54489
+64770
 Successfully changed project path to: C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
 C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 184.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,18 +36,292 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.167875 seconds.
+Registered in 0.003276 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 74.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.359 seconds
+- Completed reload, in  2.734 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.101149 seconds.
+Registered in 0.002104 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 149.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3629.
+Total: 4.275900 ms (FindLiveObjects: 0.485700 ms CreateObjectMapping: 0.240500 ms MarkObjects: 3.438800 ms  DeleteObjects: 0.109400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TutorialJorge.unity
+  artifactKey: Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialJorge.unity using Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a0295a827b58a56a7aca67cdae677e') in 0.026885 seconds
+  Import took 0.035020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Scenes/Zona 1 Exp Noa.unity
+  artifactKey: Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zona 1 Exp Noa.unity using Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7457917d187d37efbf32d525a6cb49') in 0.008315 seconds
+  Import took 0.014783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scenes/TutorialDiego.unity
+  artifactKey: Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialDiego.unity using Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5b39dcd0c5285e468cf6905475da9') in 0.010771 seconds
+  Import took 0.019180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017511 seconds.
+  path: Assets/Scenes/TutorialDiego.unity
+  artifactKey: Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialDiego.unity using Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5b39dcd0c5285e468cf6905475da9') in 0.003715 seconds
+  Import took 0.013672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125234 seconds.
+  path: Assets/Scenes/TutorialDiego 1.unity
+  artifactKey: Guid(c8f7a44b268e6c74fbcb527da266e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialDiego 1.unity using Guid(c8f7a44b268e6c74fbcb527da266e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e8d2cfc049d31ca1e16e2528a21b1d') in 0.008718 seconds
+  Import took 0.017619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.969123 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8bde7c4ce8f4cea1f0c10611309a9') in 0.009444 seconds
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463024 seconds.
+  path: Assets/Scenes/Pruebas.unity
+  artifactKey: Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pruebas.unity using Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c99972ad17ae2fac4eb65c26664bb6') in 0.014275 seconds
+  Import took 0.024982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008336 seconds.
+  path: Assets/Scenes/Pruebas.unity
+  artifactKey: Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pruebas.unity using Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c99972ad17ae2fac4eb65c26664bb6') in 0.003478 seconds
+  Import took 0.011220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.749387 seconds.
+  path: Assets/Scenes/Puebas Diego.unity
+  artifactKey: Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Puebas Diego.unity using Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae93bfda8ed471deb55ed79840e878') in 0.006509 seconds
+  Import took 0.012191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.346511 seconds.
+  path: Assets/Scenes/MazmorraJorge.unity
+  artifactKey: Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazmorraJorge.unity using Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54275db4046dc8b7079eef2a6edd024') in 0.006020 seconds
+  Import took 0.011797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.533787 seconds.
+  path: Assets/Scenes/mazmorra_proof.unity
+  artifactKey: Guid(370753dd80bca5c44b51b909571bba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mazmorra_proof.unity using Guid(370753dd80bca5c44b51b909571bba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e1fcdf0240f22d84d6c66c7bf7444') in 0.006107 seconds
+  Import took 0.012084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500915 seconds.
+  path: Assets/Scenes/Mazmorra.unity
+  artifactKey: Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mazmorra.unity using Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf570a17f3c1fdca5647de82c6f778e0') in 0.006076 seconds
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.017030 seconds.
+  path: Assets/Scenes/Mazmorra Noa nueva.unity
+  artifactKey: Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mazmorra Noa nueva.unity using Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f774f0e22afb91dbcf734329ef9e4') in 0.006309 seconds
+  Import took 0.012727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022635 seconds.
+  path: Assets/Scenes/Mazmorra Noa nueva.unity
+  artifactKey: Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mazmorra Noa nueva.unity using Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f774f0e22afb91dbcf734329ef9e4') in 0.002560 seconds
+  Import took 0.009620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.742220 seconds.
+  path: Assets/Scenes/Diego_PruebasVFX.unity
+  artifactKey: Guid(d191a8a1846c17b499a9621e4c9e805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Diego_PruebasVFX.unity using Guid(d191a8a1846c17b499a9621e4c9e805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2e30524558cd4b44eaa5223a5c27fc') in 0.006403 seconds
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.147456 seconds.
+  path: Assets/sdad/geislingen_an_der_steige_1k.hdr
+  artifactKey: Guid(0103a0ef9a7509048a804d3d8c16726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sdad/geislingen_an_der_steige_1k.hdr using Guid(0103a0ef9a7509048a804d3d8c16726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42b7d33f1d0c0e28051091a732ff42') in 0.121333 seconds
+  Import took 0.127076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sdad/New Material.mat
+  artifactKey: Guid(1bcc81fe2de92264189ad46d55e0149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sdad/New Material.mat using Guid(1bcc81fe2de92264189ad46d55e0149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac940c4a244f5d2b4864266fdb2eea') in 0.210381 seconds
+  Import took 0.218002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.467988 seconds.
+  path: Assets/Scriptss/Player
+  artifactKey: Guid(aa0d8829516b90f4c929cc6a4de07629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptss/Player using Guid(aa0d8829516b90f4c929cc6a4de07629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09274211689d7784d038f38ec67fa0ba') in 0.006453 seconds
+  Import took 0.012700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.608241 seconds.
+  path: Assets/Scriptss/Dungeon/Traps
+  artifactKey: Guid(b993d7f18857bef44a8850f1b38d009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptss/Dungeon/Traps using Guid(b993d7f18857bef44a8850f1b38d009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3342563edf86b19e37d4c5dbdc470f') in 0.006753 seconds
+  Import took 0.012547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.128263 seconds.
+  path: Assets/Meshes/Suzanne.blend
+  artifactKey: Guid(80e8dc5cf1fdb3240b3e64b20e0de680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Suzanne.blend using Guid(80e8dc5cf1fdb3240b3e64b20e0de680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfff1a0d02584ff7e4f069c43673eb') in 0.295364 seconds
+  Import took 0.301429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Meshes/Torus.blend
+  artifactKey: Guid(8d0e691f5d17b9a43a7dd50c90070127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Torus.blend using Guid(8d0e691f5d17b9a43a7dd50c90070127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092771aa9333a95d6b1812207788159b') in 0.019356 seconds
+  Import took 0.025490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.160821 seconds.
+  path: Assets/Lukas/personages/casitas/aspas.fbx
+  artifactKey: Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/aspas.fbx using Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424aef18c676e5fac2921bf95e9c015d') in 0.103019 seconds
+  Import took 0.109401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Lukas/personages/casitas/Molino.fbx
+  artifactKey: Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/Molino.fbx using Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2f19396ff0bf5b81c7a911ce914d7f') in 0.038719 seconds
+  Import took 0.044433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/casitas/Casita pequeña.fbx
+  artifactKey: Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/Casita pequeña.fbx using Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80a23166327e29b91074e26fd36ef9d') in 0.021150 seconds
+  Import took 0.027316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Lukas/personages/casitas/New Material.mat
+  artifactKey: Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material.mat using Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d5fa09685cd45ba6987b3d8ff1c50') in 0.528744 seconds
+  Import took 0.535450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx
+  artifactKey: Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx using Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e103906ed4d4159a9b3dcce98b20b354') in 0.721084 seconds
+  Import took 0.727318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx
+  artifactKey: Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx using Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5441e5f7a9a5df52fe567bf0bd3676') in 0.108959 seconds
+  Import took 0.115053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Lukas/personages/gnomos/gnomo_anciano.fbx
+  artifactKey: Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/gnomo_anciano.fbx using Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978013ddf5c5feb287ed5dffd696c6c') in 0.776577 seconds
+  Import took 0.782871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx
+  artifactKey: Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx using Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3244c52c6d5cc6d1bb3369b62c211c5b') in 0.072149 seconds
+  Import took 0.077878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Lukas/personages/casitas/New Material 1.mat
+  artifactKey: Guid(4a8aba48d7454fd4e96849d84cf11d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material 1.mat using Guid(4a8aba48d7454fd4e96849d84cf11d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca743b6130dd6c54a0d39ab5b839e76') in 0.024913 seconds
+  Import took 0.031585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Lukas/personages/casitas/Casa cartoon.fbx
+  artifactKey: Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/Casa cartoon.fbx using Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e64dbe65a99b6888877f3b042c02f61') in 0.043006 seconds
+  Import took 0.049457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.890704 seconds.
+  path: Assets/Lukas/scenas/pruebs.unity
+  artifactKey: Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/scenas/pruebs.unity using Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a135083a8e7bdd9f748a45f0e51d5d') in 0.007042 seconds
+  Import took 0.013222 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
