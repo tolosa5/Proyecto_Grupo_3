@@ -290,7 +290,6 @@ GameObject:
   - component: {fileID: 861633791282092302}
   - component: {fileID: 7124214884619155233}
   - component: {fileID: 7124214884619155238}
-  - component: {fileID: 7892074108330531286}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -456,25 +455,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &7892074108330531286
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7124214884619155259}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b52281ffc55ef7243afabd4b8d8a8e97, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7892074106768598722
 GameObject:
   m_ObjectHideFlags: 0

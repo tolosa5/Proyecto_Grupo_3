@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     {
         Player.player.transform.position = newScenePositionGm;
 
-        marco = GameObject.FindGameObjectWithTag("Marco");
+        //marco = GameObject.FindGameObjectWithTag("Marco");
         if (loadedScene.buildIndex == 0)
         {
             animSlider = GameObject.FindGameObjectWithTag("Slider").GetComponent<Animator>();
