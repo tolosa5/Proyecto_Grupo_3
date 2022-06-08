@@ -2278,3 +2278,19 @@ Received Import Request.
 Start importing Assets/Scenes/MazmorraFinale.unity using Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd205822e3905e27be7523105a836877') in 0.010454 seconds
   Import took 0.017564 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 116.949840 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(993c52202c38f87448a23f5be73065dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(993c52202c38f87448a23f5be73065dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2df223face644be97d4b55403b0308') in 0.011501 seconds
+  Import took 0.018583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.538059 seconds.
+  path: Assets/Scenes/EscenasFinales
+  artifactKey: Guid(3c5476bb1f46b8a48a5b8b67dcfb1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenasFinales using Guid(3c5476bb1f46b8a48a5b8b67dcfb1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c15a476d341892815bcd440c86116') in 0.011019 seconds
+  Import took 0.017639 seconds .
+
