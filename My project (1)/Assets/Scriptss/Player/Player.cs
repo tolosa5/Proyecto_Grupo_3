@@ -104,25 +104,16 @@ public class Player : MonoBehaviour
                 else if (hit.collider.gameObject.CompareTag("PickShield"))
                 {
                     hit.collider.gameObject.SetActive(false);
-                    shieldGO.SetActive(true);
                     shield = true;
-                }
-                else if (hit.collider.gameObject.CompareTag("PickHook"))
-                {
-                    hit.collider.gameObject.SetActive(false);
-                    hookGO.SetActive(true);
-                    hook = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickBow"))
                 {
                     hit.collider.gameObject.SetActive(false);
-                    bowGO.SetActive(true);
                     bow = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickSpear"))
                 {
                     hit.collider.gameObject.SetActive(false);
-                    spearGO.SetActive(true);
                     spear = true;
                 }
 
@@ -175,19 +166,11 @@ public class Player : MonoBehaviour
                         //pillar script, abrirla, animacion
                     }
                 }
-
-                //INTERACCIONES DUNGEON
-                else if (hit.collider.gameObject.CompareTag("Switch"))
-                {
-                    GameObject switchGO = hit.collider.gameObject;
-                    Switch switchScr = switchGO.GetComponent<Switch>();
-                    switchScr.Activate();
-                }
             }
         }
 
         //ATACAR
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) && sword)
         {
             anim.SetTrigger("TriggerAttack");
             atacando = true;
@@ -197,24 +180,51 @@ public class Player : MonoBehaviour
         //DEFENDERSE
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            anim.SetBool("BoolDefense", true);
+
+            anim.SetBool("BoolShield", true);
             shieldUp = true;
         }
         else if(Input.GetKeyUp(KeyCode.DownArrow))
         {
-            anim.SetBool("BoolDefense", false);
+            anim.SetBool("BoolShield", false);
             shieldUp = false;
         }
 
         //ARCO
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && bow)
         {
-            anim.SetBool("BoolBowCharge", true);
+            swordGO.SetActive(false);
+            shieldGO.SetActive(false);
+
+            bowGO.SetActive(true);
+            anim.SetTrigger("TriggerBow");
         }
-        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+
+        //LANZA
+        if (Input.GetKeyDown(KeyCode.RightArrow) && spear)
         {
-            anim.SetTrigger("TriggerBowShot");
+            swordGO.SetActive(false);
+            shieldGO.SetActive(false);
+
+            spearGO.SetActive(true);
+            anim.SetTrigger("TriggerSpear");
         }
+    }
+
+    //anim event
+    void BowOff()
+    {
+        swordGO.SetActive(true);
+        shieldGO.SetActive(true);
+        bowGO.SetActive(false);
+    }
+
+    //anim event
+    void SpearOff()
+    {
+        swordGO.SetActive(true);
+        shieldGO.SetActive(true);
+        spearGO.SetActive(false);
     }
 
     void Talking()
@@ -252,7 +262,7 @@ public class Player : MonoBehaviour
         }
 
         //---------------------
-        if (other.gameObject.CompareTag("Corazon"))
+        else if (other.gameObject.CompareTag("Corazon"))
         {
             recargaVidas = totalLifes - lifes;
             lifes += recargaVidas;

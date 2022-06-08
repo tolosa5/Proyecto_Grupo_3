@@ -5,6 +5,8 @@ using UnityEngine;
 public class FpsController : MonoBehaviour
 {
     GameObject cam;
+    [SerializeField] GameObject prota;
+
     Camera camComp;
     [HideInInspector] public Vector3 movementY;
     float factorG = -9.81f;
@@ -60,6 +62,8 @@ public class FpsController : MonoBehaviour
         chC = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
 
+        
+
         currentSpeed = standingSpeed;
     }
 
@@ -72,6 +76,8 @@ public class FpsController : MonoBehaviour
                 if (!Player.player.busy)
                 {
                     Movement();
+                    Debug.Log("ey");
+                    Debug.Log(v);
                 }
                 if (!preparingDash)
                 {
@@ -81,6 +87,7 @@ public class FpsController : MonoBehaviour
                 Jump();
                 Dash();
                 HookStart();
+                Rotation();
                 
                 break;
             
@@ -88,7 +95,7 @@ public class FpsController : MonoBehaviour
                 StartCoroutine(HookAnimation());
                 if (!hookAnim)
                 {
-                    HookMovementWall();
+                    HookMovementWall(); // al final no se usa no da tiempo, pero lo dejo para cuando sigamos el juego en verano
                 }
                 
                 break;
@@ -135,6 +142,30 @@ public class FpsController : MonoBehaviour
         {
             chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
 
+        }
+    }
+
+    void Rotation()
+    {
+        if (h < 0)
+        {
+            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, -90f, 0.1f * Time.deltaTime), 0);
+            Debug.Log("izquierda");
+        }
+        else if (h > 0)
+        {
+            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 90f, 0.1f * Time.deltaTime), 0);
+            Debug.Log("derecha");
+        }
+        else if (v > 0)
+        {
+            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 0f, 0.1f * Time.deltaTime), 0);
+            Debug.Log("arriba");
+        }
+        else if (v < 0)
+        {
+            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 180f, 0.1f * Time.deltaTime), 0);
+            Debug.Log("abajo");
         }
     }
 
