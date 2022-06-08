@@ -5,11 +5,6 @@ using UnityEngine;
 public class PreassurePlates : MonoBehaviour
 {
 
-    void Update()
-    {
-
-    }
-
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("Rock"))

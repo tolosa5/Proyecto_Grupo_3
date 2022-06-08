@@ -241,6 +241,12 @@ public class Player : MonoBehaviour
             bridgeCinematic.Play();
             cinematicTrigger.SetActive(false);
         }
+
+        else if (other.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed++;
+        }
+
         //---------------------
         if (other.gameObject.CompareTag("Corazon"))
         {
@@ -248,6 +254,14 @@ public class Player : MonoBehaviour
             lifes += recargaVidas;
         }
         //---------------------
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed--;
+        }
     }
 
     private void OnCollisionStay(Collision collision) 

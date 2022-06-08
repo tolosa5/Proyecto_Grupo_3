@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Detector : MonoBehaviour
 {
+    [SerializeField] bool interruptor;
     bool enemy;
     GameObject puertaGO;
     // Start is called before the first frame update
@@ -37,6 +38,10 @@ public class Detector : MonoBehaviour
         //Si no detecta al enemigo, se desactiva la puerta.
         //IMPORTANTE HACER QUE EL ENEMIGO SALGA DEL TRIGGER ANTES DE DESTRUIRLO
         if (other.gameObject.CompareTag("Enemy"))
+        {
+            enemy = false;
+        }
+        if (other.gameObject.CompareTag("Enemy") && interruptor == false)
         {
             puertaGO.SetActive(false);
             Debug.Log("David fugitive");
