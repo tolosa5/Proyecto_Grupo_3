@@ -28,6 +28,9 @@ TagManager:
   - Diana
   - Spear
   - Preassure
+  - Wall
+  - DungeonMaster
+  - Detector
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,9 @@ public class DungeonMaster : MonoBehaviour
     GameObject dianaGO;
     Diana dianaScr;
 
+    GameObject detectorGO;
+    //Detector detectorScr;
+
     [Range(0, 3)]
     public int timesPressed;
 
@@ -35,6 +38,9 @@ public class DungeonMaster : MonoBehaviour
     {
         dianaGO = GameObject.FindGameObjectWithTag("Diana");
         dianaScr = dianaGO.GetComponent<Diana>();
+
+        detectorGO = GameObject.FindGameObjectWithTag("Detector");
+        //detectorScr = detectorGO.GetComponent<Detector>();
     }
 
     // Update is called once per frame
@@ -64,6 +70,7 @@ public class DungeonMaster : MonoBehaviour
         {
             preassureColls[i].enabled = false;
         }
+        chests[0].SetActive(true);
     }
 
     void ActivatedPreassure2()
@@ -72,6 +79,10 @@ public class DungeonMaster : MonoBehaviour
         {
             preassureColls[i].enabled = false;
         }
-        chests[0].SetActive(true);
+    }
+
+    public void KeyChest()
+    {
+        //chests[detectorScr.numChest].SetActive(true);
     }
 }
