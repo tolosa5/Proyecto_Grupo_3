@@ -245,6 +245,12 @@ public class Player : MonoBehaviour
             cinematicTrigger.SetActive(false);
         }
 
+
+        else if (other.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed++;
+        }
+
         //---------------------
         if (other.gameObject.CompareTag("Corazon"))
         {
@@ -257,6 +263,14 @@ public class Player : MonoBehaviour
         {
             lifes--;
             transform.position = lastCheckPoint;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Preassure"))
+        {
+            DungeonMaster.sharedDM.timesPressed--;
         }
     }
 

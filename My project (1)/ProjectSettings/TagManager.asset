@@ -30,6 +30,11 @@ TagManager:
   - Smith
   - Switch
   - DeathZone
+  - Spear
+  - Preassure
+  - Wall
+  - DungeonMaster
+  - Detector
   layers:
   - Default
   - TransparentFX
