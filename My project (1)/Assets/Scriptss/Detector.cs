@@ -9,6 +9,7 @@ public class Detector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Pilla la puerta
         puertaGO = transform.GetChild(0).gameObject;
     }
 
@@ -19,9 +20,12 @@ public class Detector : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && enemy == false)
+        //Si detecta al player y al enemigo (independientemente del número de enemigos),
+        //activa la puerta
+        if (other.gameObject.CompareTag("Player") && enemy == true)
         {
             puertaGO.SetActive(true);
+            Debug.Log("David Cage");
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
@@ -30,12 +34,13 @@ public class Detector : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        //Si no detecta al enemigo, se desactiva la puerta.
+        //IMPORTANTE HACER QUE EL ENEMIGO SALGA DEL TRIGGER ANTES DE DESTRUIRLO
         if (other.gameObject.CompareTag("Enemy"))
         {
             puertaGO.SetActive(false);
+            Debug.Log("David fugitive");
             enemy = false;
         }
     }
-
-
 }

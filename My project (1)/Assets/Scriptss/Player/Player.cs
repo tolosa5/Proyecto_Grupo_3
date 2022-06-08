@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     public GameObject prota;
 
     int lifes = 3;
+    int totalLifes = 3;
+    int recargaVidas;
 
     //CANVAS
     [SerializeField] GameObject lifesGO;
@@ -40,8 +42,6 @@ public class Player : MonoBehaviour
     bool bow;
     [SerializeField] GameObject spearGO;
     bool spear;
-
-    [SerializeField] GameObject chestSmith;
     
     Animator anim;
     public AnimatorStateInfo animState;
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             
-            if (Physics.Raycast(transform.position, prota.transform.forward, out hit, 2, isInteractable))
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 5, isInteractable))
             {
                 //COGER ARMAS
                 if (hit.collider.gameObject.CompareTag("PickSword"))
@@ -97,6 +97,18 @@ public class Player : MonoBehaviour
                     swordGO.SetActive(true);
                     sword = true;
                     swordScr = GetComponentInChildren<Sword>();
+                }
+                else if (hit.collider.gameObject.CompareTag("PickShield"))
+                {
+                    hit.collider.gameObject.SetActive(false);
+                    shieldGO.SetActive(true);
+                    shield = true;
+                }
+                else if (hit.collider.gameObject.CompareTag("PickHook"))
+                {
+                    hit.collider.gameObject.SetActive(false);
+                    hookGO.SetActive(true);
+                    hook = true;
                 }
                 else if (hit.collider.gameObject.CompareTag("PickBow"))
                 {
@@ -192,42 +204,14 @@ public class Player : MonoBehaviour
         }
 
         //ARCO
-        if (Input.GetKey(KeyCode.LeftArrow) && bow == true)
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            bowGO.SetActive(true);
-            swordGO.SetActive(false);
-            shieldGO.SetActive(false);
             anim.SetBool("BoolBowCharge", true);
         }
-        else if (Input.GetKeyUp(KeyCode.LeftArrow) && bow == true)
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             anim.SetTrigger("TriggerBowShot");
         }
-
-        //SPEAR
-        if (Input.GetKeyDown(KeyCode.RightArrow) && spear == true)
-        {
-            spearGO.SetActive(true);
-            swordGO.SetActive(false);
-            shieldGO.SetActive(false);
-            anim.SetBool("TriggerSpearAttack", true);
-        }
-    }
-
-    //anim event
-    void DesactivateBow()
-    {
-        bowGO.SetActive(false);
-        swordGO.SetActive(true);
-        shieldGO.SetActive(true);
-    }
-
-    //anim event
-    void DesactivateSpear()
-    {
-        spearGO.SetActive(false);
-        swordGO.SetActive(true);
-        shieldGO.SetActive(true);
     }
 
     void Talking()
@@ -257,19 +241,13 @@ public class Player : MonoBehaviour
             bridgeCinematic.Play();
             cinematicTrigger.SetActive(false);
         }
-
-        else if (other.gameObject.CompareTag("Preassure"))
+        //---------------------
+        if (other.gameObject.CompareTag("Corazon"))
         {
-            DungeonMaster.sharedDM.timesPressed++;
+            recargaVidas = totalLifes - lifes;
+            lifes += recargaVidas;
         }
-    }
-
-    private void OnTriggerExit(Collider collision)
-    {
-        if (collision.gameObject.CompareTag("Preassure"))
-        {
-            DungeonMaster.sharedDM.timesPressed--;
-        }
+        //---------------------
     }
 
     private void OnCollisionStay(Collision collision) 

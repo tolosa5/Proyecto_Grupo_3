@@ -21,10 +21,11 @@ TagManager:
   - Shooter
   - Fireball
   - DeathWall
-  - Rock
   - NPC
-  - Preassure
-  - Prota
+  - Rock
+  - Corazon
+  - Arrow
+  - Diana
   layers:
   - Default
   - TransparentFX
