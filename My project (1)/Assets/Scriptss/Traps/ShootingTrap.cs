@@ -5,26 +5,27 @@ using UnityEngine;
 public class ShootingTrap : MonoBehaviour
 {
     [SerializeField] GameObject fireball;
-    float timer;
-    public bool trapOn1 = false;
+    [SerializeField] float timer;
+    float timerThreshold;
+    public bool trapOn = false;
 
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        yield return new WaitUntil(() => trapOn1 == true);
+        yield return new WaitUntil(() => trapOn == true);
         Debug.Log("aaaaa");
-        while (trapOn1 == true)
+        while (trapOn == true)
         {
             Debug.Log("eeeeee");
-            timer += 0.5f * Time.deltaTime;
-            if (timer >= 1f)
+            timerThreshold += 0.5f * Time.deltaTime;
+            if (timerThreshold >= timer)
             {
                 Debug.Log("iiiiii");
                 Instantiate(fireball, transform.position, transform.rotation);
-                timer = 0;
+                timerThreshold = 0;
             }
             Debug.Log("ooooo");
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForEndOfFrame();
         }
     }
 
