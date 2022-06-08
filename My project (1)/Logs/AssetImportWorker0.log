@@ -403,3 +403,81 @@ Received Import Request.
 Start importing Assets/Ainhoa/Anims/Anims Player/prota 4.0@Sword And Shield Walk.fbx using Guid(41d2b69958d409244a146f9a3d0aa61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0ecd63874b65a16b26214366075b19') in 0.047191 seconds
   Import took 0.074986 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 400.275858 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Sword And Shield Block Idle.anim
+  artifactKey: Guid(dc91f7a0674a90c4a9a47208ba8dc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Sword And Shield Block Idle.anim using Guid(dc91f7a0674a90c4a9a47208ba8dc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b482390b9caff602ae53703391181ea9') in 0.010212 seconds
+  Import took 0.031246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.755984 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Sword And Shield Walk.anim
+  artifactKey: Guid(99a3cc467218dbb45ae226fc86fb4cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Sword And Shield Walk.anim using Guid(99a3cc467218dbb45ae226fc86fb4cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35edde31926e4054d9e11aea05f5ad') in 0.012071 seconds
+  Import took 0.040949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.505895 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Anims finales/Bow Attack.anim
+  artifactKey: Guid(043cc142931010243aa0cb98754628b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Anims finales/Bow Attack.anim using Guid(043cc142931010243aa0cb98754628b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd04e926a35b5bc772764964c727649') in 0.340219 seconds
+  Import took 0.402482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1059.564723 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/prota 4.0@Sword And Shield Death.fbx
+  artifactKey: Guid(30231e2290dc03a49a9f9c736ad7d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/prota 4.0@Sword And Shield Death.fbx using Guid(30231e2290dc03a49a9f9c736ad7d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c1e0136a8994c850ff999c38a9ab73') in 0.065756 seconds
+  Import took 0.087912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.379070 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Sword And Shield Death.anim
+  artifactKey: Guid(fc7228935fa47214588abe8bf5e211d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Sword And Shield Death.anim using Guid(fc7228935fa47214588abe8bf5e211d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c2c28b09f290d039629338b2b632fd') in 0.018291 seconds
+  Import took 0.040323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 650.746421 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Anims finales/Sword And Shield Block Idle.anim
+  artifactKey: Guid(dc91f7a0674a90c4a9a47208ba8dc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Anims finales/Sword And Shield Block Idle.anim using Guid(dc91f7a0674a90c4a9a47208ba8dc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30b749337641d5c46009e60237dce0e') in 0.336525 seconds
+  Import took 0.387711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.491398 seconds.
+  path: Assets/Ainhoa/Anims/Anims Player/Anims finales/Sword And Shield Death.anim
+  artifactKey: Guid(fc7228935fa47214588abe8bf5e211d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ainhoa/Anims/Anims Player/Anims finales/Sword And Shield Death.anim using Guid(fc7228935fa47214588abe8bf5e211d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39445b7b58108639fe6700a45196fc2b') in 0.049043 seconds
+  Import took 0.144718 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 147.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3738.
+Total: 2.815500 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.148100 ms MarkObjects: 2.350100 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
