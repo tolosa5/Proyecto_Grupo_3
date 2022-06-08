@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     int totalLifes = 3;
     int recargaVidas;
 
+    [HideInInspector] public Vector3 lastCheckPoint;
+
     //CANVAS
     [SerializeField] GameObject lifesGO;
     [SerializeField] GameObject weapons;
@@ -47,11 +49,11 @@ public class Player : MonoBehaviour
     public AnimatorStateInfo animState;
     [HideInInspector] public bool shieldUp;
 
-    public bool atacando;
-    public int key;
-    public bool bossKey;
+    [HideInInspector] public bool atacando;
+    [HideInInspector] public int key;
+    [HideInInspector] public bool bossKey;
 
-    public bool busy;
+    [HideInInspector] public bool busy;
     [SerializeField] PlayableDirector bridgeCinematic;
     [SerializeField] GameObject cinematicTrigger;
     
@@ -250,6 +252,12 @@ public class Player : MonoBehaviour
             lifes += recargaVidas;
         }
         //---------------------
+
+        else if (other.gameObject.CompareTag("DeathZone"))
+        {
+            lifes--;
+            transform.position = lastCheckPoint;
+        }
     }
 
     private void OnCollisionStay(Collision collision) 
@@ -310,6 +318,7 @@ public class Player : MonoBehaviour
 
     void Death()
     {
-        //chimuelo
+        //animacion
+        transform.position = lastCheckPoint;
     }
 }

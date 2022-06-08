@@ -786,7 +786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifes: 3
   damage: 1
-  handAttack: {fileID: 0}
+  sword: {fileID: 0}
   shield: 0
   isPlayer:
     serializedVersion: 2
