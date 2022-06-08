@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
+D:/Carpeta Compartida/Proyecto_Grupo_3/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64770
-Successfully changed project path to: C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
-C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)
+56013
+Successfully changed project path to: D:/Carpeta Compartida/Proyecto_Grupo_3/My project (1)
+D:/Carpeta Compartida/Proyecto_Grupo_3/My project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 77.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/CES/Desktop/Proyecto_Grupo_3/My project (1)/Assets
+[Subsystems] Discovering subsystems at path D:/Carpeta Compartida/Proyecto_Grupo_3/My project (1)/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -36,292 +36,1355 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003276 seconds.
+Registered in 0.004209 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 71.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.734 seconds
+- Completed reload, in  5.348 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002104 seconds.
+Registered in 0.001599 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.181 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.9 MB.
-System memory in use after: 149.1 MB.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.1 MB.
+System memory in use after: 148.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3629.
-Total: 4.275900 ms (FindLiveObjects: 0.485700 ms CreateObjectMapping: 0.240500 ms MarkObjects: 3.438800 ms  DeleteObjects: 0.109400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/TutorialJorge.unity
-  artifactKey: Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialJorge.unity using Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a0295a827b58a56a7aca67cdae677e') in 0.026885 seconds
-  Import took 0.035020 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3626.
+Total: 3.856400 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.170400 ms MarkObjects: 3.090200 ms  DeleteObjects: 0.116100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Scenes/Zona 1 Exp Noa.unity
-  artifactKey: Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Zona 1 Exp Noa.unity using Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7457917d187d37efbf32d525a6cb49') in 0.008315 seconds
-  Import took 0.014783 seconds .
+  path: Assets/CM vcam1.prefab
+  artifactKey: Guid(bb541d7462b41d44e9e1e58dbe93e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CM vcam1.prefab using Guid(bb541d7462b41d44e9e1e58dbe93e77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd979b387916c3d773b96399b276f6139') in 0.057315 seconds
+  Import took 0.063483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Scenes/TutorialDiego.unity
-  artifactKey: Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialDiego.unity using Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5b39dcd0c5285e468cf6905475da9') in 0.010771 seconds
-  Import took 0.019180 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/Cell.mat
+  artifactKey: Guid(28c81a44944e87a41a3b53c4b1bb6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell.mat using Guid(28c81a44944e87a41a3b53c4b1bb6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336d88fad8cee031df2ac20278422533') in 1.002640 seconds
+  Import took 1.008101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.017511 seconds.
-  path: Assets/Scenes/TutorialDiego.unity
-  artifactKey: Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialDiego.unity using Guid(16bf63ce6c23e934caf7065aa9e16812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5b39dcd0c5285e468cf6905475da9') in 0.003715 seconds
-  Import took 0.013672 seconds .
+  Time since last request: 0.000189 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(dc5e287c4d56b264baf9a1badb910a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(dc5e287c4d56b264baf9a1badb910a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086618c0dd0b3c4222098d8fde622785') in 0.419846 seconds
+  Import took 0.425373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.125234 seconds.
-  path: Assets/Scenes/TutorialDiego 1.unity
-  artifactKey: Guid(c8f7a44b268e6c74fbcb527da266e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialDiego 1.unity using Guid(c8f7a44b268e6c74fbcb527da266e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e8d2cfc049d31ca1e16e2528a21b1d') in 0.008718 seconds
-  Import took 0.017619 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814f4bbac30b11d82d56288dbf454709') in 0.009903 seconds
+  Import took 0.015354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.969123 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8bde7c4ce8f4cea1f0c10611309a9') in 0.009444 seconds
-  Import took 0.017205 seconds .
+  Time since last request: 0.497669 seconds.
+  path: Assets/Lukas/personages
+  artifactKey: Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages using Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955d5ef2aadaae313195ec7dbc18c4ab') in 0.005047 seconds
+  Import took 0.010612 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.463024 seconds.
-  path: Assets/Scenes/Pruebas.unity
-  artifactKey: Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pruebas.unity using Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c99972ad17ae2fac4eb65c26664bb6') in 0.014275 seconds
-  Import took 0.024982 seconds .
+  Time since last request: 0.007999 seconds.
+  path: Assets/Lukas/personages
+  artifactKey: Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages using Guid(e5bea91158d26f04f8ab64f033a7c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955d5ef2aadaae313195ec7dbc18c4ab') in 0.002368 seconds
+  Import took 0.009683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008336 seconds.
-  path: Assets/Scenes/Pruebas.unity
-  artifactKey: Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pruebas.unity using Guid(b6d6ef13f56cb324e9f2369838b88bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c99972ad17ae2fac4eb65c26664bb6') in 0.003478 seconds
-  Import took 0.011220 seconds .
+  Time since last request: 0.825315 seconds.
+  path: Assets/Lukas/personages/casitas
+  artifactKey: Guid(7697196c869148b42af812cca301aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas using Guid(7697196c869148b42af812cca301aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375e3973b39d34ebf07ff997895fd49f') in 0.005287 seconds
+  Import took 0.010877 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.749387 seconds.
-  path: Assets/Scenes/Puebas Diego.unity
-  artifactKey: Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Puebas Diego.unity using Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae93bfda8ed471deb55ed79840e878') in 0.006509 seconds
-  Import took 0.012191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.346511 seconds.
-  path: Assets/Scenes/MazmorraJorge.unity
-  artifactKey: Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MazmorraJorge.unity using Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54275db4046dc8b7079eef2a6edd024') in 0.006020 seconds
-  Import took 0.011797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.533787 seconds.
-  path: Assets/Scenes/mazmorra_proof.unity
-  artifactKey: Guid(370753dd80bca5c44b51b909571bba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mazmorra_proof.unity using Guid(370753dd80bca5c44b51b909571bba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e1fcdf0240f22d84d6c66c7bf7444') in 0.006107 seconds
-  Import took 0.012084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.500915 seconds.
-  path: Assets/Scenes/Mazmorra.unity
-  artifactKey: Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mazmorra.unity using Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf570a17f3c1fdca5647de82c6f778e0') in 0.006076 seconds
-  Import took 0.011772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.017030 seconds.
-  path: Assets/Scenes/Mazmorra Noa nueva.unity
-  artifactKey: Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mazmorra Noa nueva.unity using Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f774f0e22afb91dbcf734329ef9e4') in 0.006309 seconds
-  Import took 0.012727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022635 seconds.
-  path: Assets/Scenes/Mazmorra Noa nueva.unity
-  artifactKey: Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mazmorra Noa nueva.unity using Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f774f0e22afb91dbcf734329ef9e4') in 0.002560 seconds
-  Import took 0.009620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.742220 seconds.
-  path: Assets/Scenes/Diego_PruebasVFX.unity
-  artifactKey: Guid(d191a8a1846c17b499a9621e4c9e805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Diego_PruebasVFX.unity using Guid(d191a8a1846c17b499a9621e4c9e805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2e30524558cd4b44eaa5223a5c27fc') in 0.006403 seconds
-  Import took 0.012653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.147456 seconds.
-  path: Assets/sdad/geislingen_an_der_steige_1k.hdr
-  artifactKey: Guid(0103a0ef9a7509048a804d3d8c16726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sdad/geislingen_an_der_steige_1k.hdr using Guid(0103a0ef9a7509048a804d3d8c16726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42b7d33f1d0c0e28051091a732ff42') in 0.121333 seconds
-  Import took 0.127076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/sdad/New Material.mat
-  artifactKey: Guid(1bcc81fe2de92264189ad46d55e0149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sdad/New Material.mat using Guid(1bcc81fe2de92264189ad46d55e0149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac940c4a244f5d2b4864266fdb2eea') in 0.210381 seconds
-  Import took 0.218002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.467988 seconds.
-  path: Assets/Scriptss/Player
-  artifactKey: Guid(aa0d8829516b90f4c929cc6a4de07629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptss/Player using Guid(aa0d8829516b90f4c929cc6a4de07629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09274211689d7784d038f38ec67fa0ba') in 0.006453 seconds
-  Import took 0.012700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.608241 seconds.
-  path: Assets/Scriptss/Dungeon/Traps
-  artifactKey: Guid(b993d7f18857bef44a8850f1b38d009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptss/Dungeon/Traps using Guid(b993d7f18857bef44a8850f1b38d009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3342563edf86b19e37d4c5dbdc470f') in 0.006753 seconds
-  Import took 0.012547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.128263 seconds.
-  path: Assets/Meshes/Suzanne.blend
-  artifactKey: Guid(80e8dc5cf1fdb3240b3e64b20e0de680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Suzanne.blend using Guid(80e8dc5cf1fdb3240b3e64b20e0de680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfff1a0d02584ff7e4f069c43673eb') in 0.295364 seconds
-  Import took 0.301429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Meshes/Torus.blend
-  artifactKey: Guid(8d0e691f5d17b9a43a7dd50c90070127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Torus.blend using Guid(8d0e691f5d17b9a43a7dd50c90070127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092771aa9333a95d6b1812207788159b') in 0.019356 seconds
-  Import took 0.025490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.160821 seconds.
+  Time since last request: 0.049464 seconds.
   path: Assets/Lukas/personages/casitas/aspas.fbx
   artifactKey: Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/aspas.fbx using Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424aef18c676e5fac2921bf95e9c015d') in 0.103019 seconds
-  Import took 0.109401 seconds .
+Start importing Assets/Lukas/personages/casitas/aspas.fbx using Guid(bde02a18a43fc7d418d6cedcbcbf402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424aef18c676e5fac2921bf95e9c015d') in 0.304457 seconds
+  Import took 0.310195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
+  Time since last request: 0.000247 seconds.
   path: Assets/Lukas/personages/casitas/Molino.fbx
   artifactKey: Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/Molino.fbx using Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2f19396ff0bf5b81c7a911ce914d7f') in 0.038719 seconds
-  Import took 0.044433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Lukas/personages/casitas/Casita pequeña.fbx
-  artifactKey: Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/Casita pequeña.fbx using Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80a23166327e29b91074e26fd36ef9d') in 0.021150 seconds
-  Import took 0.027316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Lukas/personages/casitas/New Material.mat
-  artifactKey: Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/New Material.mat using Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d5fa09685cd45ba6987b3d8ff1c50') in 0.528744 seconds
-  Import took 0.535450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx
-  artifactKey: Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx using Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e103906ed4d4159a9b3dcce98b20b354') in 0.721084 seconds
-  Import took 0.727318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx
-  artifactKey: Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx using Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5441e5f7a9a5df52fe567bf0bd3676') in 0.108959 seconds
-  Import took 0.115053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Lukas/personages/gnomos/gnomo_anciano.fbx
-  artifactKey: Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos/gnomo_anciano.fbx using Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978013ddf5c5feb287ed5dffd696c6c') in 0.776577 seconds
-  Import took 0.782871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx
-  artifactKey: Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx using Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3244c52c6d5cc6d1bb3369b62c211c5b') in 0.072149 seconds
-  Import took 0.077878 seconds .
+Start importing Assets/Lukas/personages/casitas/Molino.fbx using Guid(db8a22826f9d63a4485df77f8b4805b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2f19396ff0bf5b81c7a911ce914d7f') in 0.039537 seconds
+  Import took 0.045103 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000184 seconds.
+  path: Assets/Lukas/personages/casitas/Casita pequeña.fbx
+  artifactKey: Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/Casita pequeña.fbx using Guid(197907fccd3028a42b3bada7cc254913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80a23166327e29b91074e26fd36ef9d') in 0.022179 seconds
+  Import took 0.027404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lukas/personages/casitas/New Material.mat
+  artifactKey: Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material.mat using Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d5fa09685cd45ba6987b3d8ff1c50') in 0.436062 seconds
+  Import took 0.442076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
   path: Assets/Lukas/personages/casitas/New Material 1.mat
   artifactKey: Guid(4a8aba48d7454fd4e96849d84cf11d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/New Material 1.mat using Guid(4a8aba48d7454fd4e96849d84cf11d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca743b6130dd6c54a0d39ab5b839e76') in 0.024913 seconds
-  Import took 0.031585 seconds .
+Start importing Assets/Lukas/personages/casitas/New Material 1.mat using Guid(4a8aba48d7454fd4e96849d84cf11d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca743b6130dd6c54a0d39ab5b839e76') in 0.039052 seconds
+  Import took 0.045415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Lukas/personages/casitas/Casa cartoon.fbx
+  artifactKey: Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/Casa cartoon.fbx using Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e64dbe65a99b6888877f3b042c02f61') in 0.036293 seconds
+  Import took 0.041576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.985412 seconds.
+  path: Assets/Lukas/personages/gnomos/gnomo_anciano.fbx
+  artifactKey: Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/gnomo_anciano.fbx using Guid(a789cf32fa9f60049b91a4df95053b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978013ddf5c5feb287ed5dffd696c6c') in 0.683325 seconds
+  Import took 0.689372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx
+  artifactKey: Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/Old Man Idle (1).fbx using Guid(7b5a534f6f1b9ba4a905ee290901e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e103906ed4d4159a9b3dcce98b20b354') in 0.728977 seconds
+  Import took 0.734930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx
+  artifactKey: Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/Gnomo_madre_bueno.fbx using Guid(c47f7ace931a9f04196d921d4ddf7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5441e5f7a9a5df52fe567bf0bd3676') in 0.119932 seconds
+  Import took 0.125879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx
+  artifactKey: Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/gnomo_pequeño.fbx using Guid(3d1f91b5c829c1f43b299c44bf6f8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3244c52c6d5cc6d1bb3369b62c211c5b') in 0.070602 seconds
+  Import took 0.075846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600516 seconds.
+  path: Assets/Lukas/scenas/pruebs.unity
+  artifactKey: Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/scenas/pruebs.unity using Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a135083a8e7bdd9f748a45f0e51d5d') in 0.005727 seconds
+  Import took 0.011356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.379857 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas
+  artifactKey: Guid(c0dcb3100404f104480509d6294e9ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas using Guid(c0dcb3100404f104480509d6294e9ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f816f443e7d9fc727f2f179c29cb9e') in 0.006168 seconds
+  Import took 0.013826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921037 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/painter
+  artifactKey: Guid(0f8e4916aa321ac438afcdb093d5f2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/painter using Guid(0f8e4916aa321ac438afcdb093d5f2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe84f251fb345b6eedd410243729528') in 0.008323 seconds
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.926431 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Base_color.png
+  artifactKey: Guid(ba1a9ba9a7b20d44a8767730ce0e0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Base_color.png using Guid(ba1a9ba9a7b20d44a8767730ce0e0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201245a36e787fc8f5d0ed09190e84b4') in 0.094429 seconds
+  Import took 0.101169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Mixed_AO.png
+  artifactKey: Guid(fe33c595a2ec9144f8035d46610067c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Mixed_AO.png using Guid(fe33c595a2ec9144f8035d46610067c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f43eda6566ea46826603b48135e8b2') in 0.012948 seconds
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/lambert4_Base_color.png
+  artifactKey: Guid(8ffe259939099564fa10420983abbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/lambert4_Base_color.png using Guid(8ffe259939099564fa10420983abbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c16c5ce47839c1fb0cfa967f3a1b56') in 0.012719 seconds
+  Import took 0.018816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Emissive.png
+  artifactKey: Guid(378ce81020f046e4d93eaed26e30520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Emissive.png using Guid(378ce81020f046e4d93eaed26e30520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffb1215cd7eaabfdb72542415cc306b') in 0.011244 seconds
+  Import took 0.018070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Scattering.png
+  artifactKey: Guid(ae67b1fbb4fd4e34e96a89b20616d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Scattering.png using Guid(ae67b1fbb4fd4e34e96a89b20616d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e95f9a8aa2a919b73faae8c545caa1') in 0.013195 seconds
+  Import took 0.019502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Normal.png
+  artifactKey: Guid(94e846eb2ed9df94b9f1173b50ee2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Normal.png using Guid(94e846eb2ed9df94b9f1173b50ee2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbac522adca678ac744cd83d81f3599') in 0.012758 seconds
+  Import took 0.018181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Normal_DirectX.png
+  artifactKey: Guid(fac57b5c2547f9647b03c68acf93541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Normal_DirectX.png using Guid(fac57b5c2547f9647b03c68acf93541f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743bc3ef17c030e6fd951f245ec2aba1') in 0.021744 seconds
+  Import took 0.027331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Height.png
+  artifactKey: Guid(3eb898522119a0b42adf0aed3e8d4d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Height.png using Guid(3eb898522119a0b42adf0aed3e8d4d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fcc8eae5a56f369f55510d4ac3e0d7') in 0.011282 seconds
+  Import took 0.017524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Roughness.png
+  artifactKey: Guid(0b35a79ddc361664e9f15e8ce1bd0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Roughness.png using Guid(0b35a79ddc361664e9f15e8ce1bd0b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0718e15b05f284cdf900c8f07a1e1d9') in 0.013917 seconds
+  Import took 0.020408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Opacity.png
+  artifactKey: Guid(b5a470bc121395a4dbbb251147a895d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Opacity.png using Guid(b5a470bc121395a4dbbb251147a895d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ee2d54805b06ea629236b711dab8da') in 0.012074 seconds
+  Import took 0.017361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Metallic.png
+  artifactKey: Guid(c19e9f95b8eab184c93653065504890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/base_Metallic.png using Guid(c19e9f95b8eab184c93653065504890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c675c9ffc4d0550269dd777760a1e26') in 0.011772 seconds
+  Import took 0.017469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/lambert4_Height.png
+  artifactKey: Guid(ae5aff9bd0930a2469ab9d1b4784b5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon/lambert4_Height.png using Guid(ae5aff9bd0930a2469ab9d1b4784b5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5cfc1acc1026e399dff3d61f16804') in 0.012243 seconds
+  Import took 0.019027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053390 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Base_color.png
+  artifactKey: Guid(d734414e380579940ac58dae3f6ded34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Base_color.png using Guid(d734414e380579940ac58dae3f6ded34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ed8dbc2808936100e824c54d04f4f') in 0.012113 seconds
+  Import took 0.019245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Opacity.png
+  artifactKey: Guid(13f180b70d859714f86ae5da9b2de8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Opacity.png using Guid(13f180b70d859714f86ae5da9b2de8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd779fc5db6a55ac9ff1cdfa91c800978') in 0.014138 seconds
+  Import took 0.021133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Scattering.png
+  artifactKey: Guid(d4403a29cf851a9468c9518fbb0bd4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Scattering.png using Guid(d4403a29cf851a9468c9518fbb0bd4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cab5da8883b76f8669b491d6e1b4b8') in 0.011016 seconds
+  Import took 0.020050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Height.png
+  artifactKey: Guid(96d3bd132bebdb945bac5e6cbb9699c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Height.png using Guid(96d3bd132bebdb945bac5e6cbb9699c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bae1ccdf85a1a675eea9698a052fe0') in 0.012887 seconds
+  Import took 0.019735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Height.png
+  artifactKey: Guid(043d2dfb960ea2c4b9a76b0ac75df591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Height.png using Guid(043d2dfb960ea2c4b9a76b0ac75df591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b82e87447c446c4b3a18dbd9c9844') in 0.013518 seconds
+  Import took 0.020190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Base_color.png
+  artifactKey: Guid(ada48159bc84d0b419d5307147d97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Base_color.png using Guid(ada48159bc84d0b419d5307147d97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd607bdd956ac0a02a5cfc26efbc1c9') in 0.012593 seconds
+  Import took 0.019232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Roughness.png
+  artifactKey: Guid(9551e0a87735fab4f84f52e32237d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Roughness.png using Guid(9551e0a87735fab4f84f52e32237d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922f329c0d00eeebb99830d43313110f') in 0.010707 seconds
+  Import took 0.016481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Mixed_AO.png
+  artifactKey: Guid(205aa08f9436e294aa6467b4cbac1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Mixed_AO.png using Guid(205aa08f9436e294aa6467b4cbac1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4256ebb043d5c873492c88f37eea1c95') in 0.010886 seconds
+  Import took 0.016459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Metallic.png
+  artifactKey: Guid(fd5f1fddcb7190b4e806db2942aa7d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Metallic.png using Guid(fd5f1fddcb7190b4e806db2942aa7d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f26e84da1d52f66fccf554f5295435') in 0.008242 seconds
+  Import took 0.014766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Metallic.png
+  artifactKey: Guid(12481172fecb3d5468006620f71f90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Metallic.png using Guid(12481172fecb3d5468006620f71f90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc8b3e504795cca5ee54e8ad1a0651d') in 0.013602 seconds
+  Import took 0.019429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Normal.png
+  artifactKey: Guid(bacc4d953e152e94bb4b9ae792ae6e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Normal.png using Guid(bacc4d953e152e94bb4b9ae792ae6e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c282f3be76a93c0af9f4b876f7a6802a') in 0.011987 seconds
+  Import took 0.017537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Normal_DirectX.png
+  artifactKey: Guid(00684b18a53058440ae92a5988dcfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/base_Normal_DirectX.png using Guid(00684b18a53058440ae92a5988dcfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d827bb1703c5332015679028231587') in 0.009484 seconds
+  Import took 0.015101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.801307 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Mixed_AO.png
+  artifactKey: Guid(d9183c04208d8e044a28b289cb6a5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Mixed_AO.png using Guid(d9183c04208d8e044a28b289cb6a5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f867fe048ed0aae113aad86ef116d3') in 0.013079 seconds
+  Import took 0.019724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Roughness.png
+  artifactKey: Guid(f82e6b7f79d5f3741b73014667142382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Roughness.png using Guid(f82e6b7f79d5f3741b73014667142382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c195dbbac40afb8a38974ea1d125e405') in 0.013250 seconds
+  Import took 0.018949 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000186 seconds.
-  path: Assets/Lukas/personages/casitas/Casa cartoon.fbx
-  artifactKey: Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/personages/casitas/Casa cartoon.fbx using Guid(89fdae8350ee53547879fe7898318dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e64dbe65a99b6888877f3b042c02f61') in 0.043006 seconds
-  Import took 0.049457 seconds .
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Mixed_AO.png
+  artifactKey: Guid(d9183c04208d8e044a28b289cb6a5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Mixed_AO.png using Guid(d9183c04208d8e044a28b289cb6a5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f867fe048ed0aae113aad86ef116d3') in 0.008125 seconds
+  Import took 0.013258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.890704 seconds.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Height.png
+  artifactKey: Guid(e05ef18912e3ab24ea9b9e335745908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Height.png using Guid(e05ef18912e3ab24ea9b9e335745908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c914bfd6015bf30df6d4f047c7bf4e') in 0.013990 seconds
+  Import took 0.019661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Normal_DirectX.png
+  artifactKey: Guid(bacd848f0a3412a41b9c39dff698303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Normal_DirectX.png using Guid(bacd848f0a3412a41b9c39dff698303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e068ca37898fbad500bd6cedc27da13a') in 0.015742 seconds
+  Import took 0.022349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Normal.png
+  artifactKey: Guid(af92cb6b9cbd13b4487131b3a30a8d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Normal.png using Guid(af92cb6b9cbd13b4487131b3a30a8d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d302b966bd297f23a0a9a40dfdaa4e') in 0.010009 seconds
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Normal_DirectX.png
+  artifactKey: Guid(8832c3622332ec14c92d9e6f245142c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Normal_DirectX.png using Guid(8832c3622332ec14c92d9e6f245142c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3784ef4940bffca33d40412ec1047c88') in 0.012318 seconds
+  Import took 0.018236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Normal.png
+  artifactKey: Guid(8de538a945f7462488b67a802e302cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Normal.png using Guid(8de538a945f7462488b67a802e302cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbe0706a1953d183caf16e4598e2968') in 0.011193 seconds
+  Import took 0.017297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Base_color.png
+  artifactKey: Guid(46182a9f115e6ea40bf092b60f4589ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Base_color.png using Guid(46182a9f115e6ea40bf092b60f4589ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e364242ca61cdafc534150c1bef06a1') in 0.014055 seconds
+  Import took 0.019766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Metallic.png
+  artifactKey: Guid(084e430d7ecaddc4c97ee9183e525a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Metallic.png using Guid(084e430d7ecaddc4c97ee9183e525a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7124ddd70a8559414ab41f0afbd18') in 0.011647 seconds
+  Import took 0.017215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Scattering.png
+  artifactKey: Guid(bd1368bf970e821439a091c7403d0225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/lambert4_Scattering.png using Guid(bd1368bf970e821439a091c7403d0225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1451043d49d5c624251653de6f8550a2') in 0.011136 seconds
+  Import took 0.016911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Mixed_AO.png
+  artifactKey: Guid(694bc96ec900f784dac3b19f69a03b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Mixed_AO.png using Guid(694bc96ec900f784dac3b19f69a03b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886cb00e13b9a910125a2966e4abaf87') in 0.016558 seconds
+  Import took 0.022130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.834782 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Roughness.png
+  artifactKey: Guid(2eff1d74204d90f4fa501de634cf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Roughness.png using Guid(2eff1d74204d90f4fa501de634cf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be816c4900cfc0f62dc134cff25c8695') in 0.013652 seconds
+  Import took 0.020853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005465 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Roughness.png
+  artifactKey: Guid(2eff1d74204d90f4fa501de634cf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Roughness.png using Guid(2eff1d74204d90f4fa501de634cf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be816c4900cfc0f62dc134cff25c8695') in 0.007948 seconds
+  Import took 0.014686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Scattering.png
+  artifactKey: Guid(b448ffcd67c98ad4ba7f2c507e7b87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa cartoon_2/tejado_Scattering.png using Guid(b448ffcd67c98ad4ba7f2c507e7b87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e738910d032c09149f12a999f46f8cfd') in 0.012341 seconds
+  Import took 0.019172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.966002 seconds.
+  path: Assets/Lukas/personages/casitas/New Material 2.mat
+  artifactKey: Guid(6178019c997dbdc498776c5fa92685bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material 2.mat using Guid(6178019c997dbdc498776c5fa92685bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f50f6dff0d7236de8f54514cc3cdf0c') in 0.012058 seconds
+  Import took 0.018245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.386761 seconds.
+  path: Assets/Lukas/personages/casitas/New Material 2.mat
+  artifactKey: Guid(6178019c997dbdc498776c5fa92685bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material 2.mat using Guid(6178019c997dbdc498776c5fa92685bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f47ff841cc81167d8695532a7f8fe67') in 0.036033 seconds
+  Import took 0.042416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Lukas/personages/casitas/New Material 3.mat
+  artifactKey: Guid(02b444c7aa844b941a51d4846bae2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material 3.mat using Guid(02b444c7aa844b941a51d4846bae2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3d6e7865dc1773d0757073e59c660') in 0.011003 seconds
+  Import took 0.016609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.685384 seconds.
+  path: Assets/Scenes/Mazmorra Noa nueva.unity
+  artifactKey: Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mazmorra Noa nueva.unity using Guid(8e8efa8de18e6a247aaab2baa8c57836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f774f0e22afb91dbcf734329ef9e4') in 0.005933 seconds
+  Import took 0.012330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906464 seconds.
+  path: Assets/Scenes/Mazmorra.unity
+  artifactKey: Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mazmorra.unity using Guid(332006a4d2793344482db03186332741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf570a17f3c1fdca5647de82c6f778e0') in 0.005989 seconds
+  Import took 0.012207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.376075 seconds.
+  path: Assets/Scenes/MazmorraJorge.unity
+  artifactKey: Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazmorraJorge.unity using Guid(5800c7f329cbca647b021ea15f41cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54275db4046dc8b7079eef2a6edd024') in 0.006559 seconds
+  Import took 0.013859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584298 seconds.
+  path: Assets/Scenes/MazmorraDiego.unity
+  artifactKey: Guid(658a86b13350de74b87c8c5ea7c8ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazmorraDiego.unity using Guid(658a86b13350de74b87c8c5ea7c8ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5dd24b4614266b681e2d2651e12b1e') in 0.006442 seconds
+  Import took 0.014009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714384 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8bde7c4ce8f4cea1f0c10611309a9') in 0.008324 seconds
+  Import took 0.015648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.938443 seconds.
+  path: Assets/Scenes/Puebas Diego.unity
+  artifactKey: Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Puebas Diego.unity using Guid(0fe04336c81db0c49843368728e6c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae93bfda8ed471deb55ed79840e878') in 0.005751 seconds
+  Import took 0.011987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567245 seconds.
+  path: Assets/Scenes/Zona 1 Exp Noa.unity
+  artifactKey: Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zona 1 Exp Noa.unity using Guid(22e01bd00c119ec4f9b955d4c54a9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7457917d187d37efbf32d525a6cb49') in 0.006350 seconds
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.089459 seconds.
+  path: Assets/Scenes/TutorialJorge.unity
+  artifactKey: Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialJorge.unity using Guid(bd30d36821d599f4aa30b76191c2e3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a0295a827b58a56a7aca67cdae677e') in 0.005965 seconds
+  Import took 0.011884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.752597 seconds.
+  path: Assets/Scenes/Zona1Diego.unity
+  artifactKey: Guid(89aeb04370288c34c83b6145e715526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zona1Diego.unity using Guid(89aeb04370288c34c83b6145e715526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dae5d7e28765543d91d526e5f24eab') in 0.005579 seconds
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.976960 seconds.
+  path: Assets/Lukas/scenas
+  artifactKey: Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/scenas using Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a4d27fcbe3c25961d15a592deffba') in 0.006303 seconds
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013255 seconds.
+  path: Assets/Lukas/scenas
+  artifactKey: Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/scenas using Guid(2c90ec7ef32c1d14c9de2ada0ef96111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a4d27fcbe3c25961d15a592deffba') in 0.002401 seconds
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829616 seconds.
   path: Assets/Lukas/scenas/pruebs.unity
   artifactKey: Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lukas/scenas/pruebs.unity using Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a135083a8e7bdd9f748a45f0e51d5d') in 0.007042 seconds
-  Import took 0.013222 seconds .
+Start importing Assets/Lukas/scenas/pruebs.unity using Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82bda53998c4cc8b799d2b3606cbe11') in 0.002061 seconds
+  Import took 0.007978 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.019839 seconds.
+  path: Assets/Lukas/scenas/pruebs.unity
+  artifactKey: Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/scenas/pruebs.unity using Guid(50fda4e04997b784797eb079b07144a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82bda53998c4cc8b799d2b3606cbe11') in 0.002184 seconds
+  Import took 0.008721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.824297 seconds.
+  path: Assets/Lukas/personages/casitas/New Material 3.mat
+  artifactKey: Guid(02b444c7aa844b941a51d4846bae2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/New Material 3.mat using Guid(02b444c7aa844b941a51d4846bae2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca387445908937b6f8f5ad486ea436b8') in 0.026911 seconds
+  Import took 0.034556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.210059 seconds.
+  path: Assets/Lukas/personages/casitas/MATERIALS
+  artifactKey: Guid(949d8940ed1142c43b90e2b442d5a20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/MATERIALS using Guid(949d8940ed1142c43b90e2b442d5a20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af43b5adda9871c3fe94efba16275d') in 0.006266 seconds
+  Import took 0.012390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.280109 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos
+  artifactKey: Guid(f605b82005d3f9b4e85d9b5e0f8d331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos using Guid(f605b82005d3f9b4e85d9b5e0f8d331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2f8dd4f7e1b99a89dd76f37e3fb6c6') in 0.006187 seconds
+  Import took 0.013686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014890 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano
+  artifactKey: Guid(cfd2799819e18cc478a12f70f4e7f336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano using Guid(cfd2799819e18cc478a12f70f4e7f336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9542072fa9a7aab379ddfa8cd8b23e3d') in 0.005654 seconds
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060713 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Base_color.png
+  artifactKey: Guid(f4efb2eba91f1a645bc29b3b10686374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Base_color.png using Guid(f4efb2eba91f1a645bc29b3b10686374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077df180158aa8fb21072dd64aeea9db') in 0.011365 seconds
+  Import took 0.017720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Roughness.png
+  artifactKey: Guid(10810cd8f82c7124bb1e061fe3dbf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Roughness.png using Guid(10810cd8f82c7124bb1e061fe3dbf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fe246b76d33024de367a8996094fff') in 0.013306 seconds
+  Import took 0.018565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Normal_DirectX.png
+  artifactKey: Guid(28d91303674c18b48977f8d40068106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Normal_DirectX.png using Guid(28d91303674c18b48977f8d40068106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e527aeba23f76cbcc84b3a5fcd4c07') in 0.012523 seconds
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Mixed_AO.png
+  artifactKey: Guid(9fa0383954f32d64d8ca9a7877f57380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Mixed_AO.png using Guid(9fa0383954f32d64d8ca9a7877f57380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37ff96b821959239d5055630688e0a6') in 0.011636 seconds
+  Import took 0.017056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Metallic.png
+  artifactKey: Guid(3a6c34ebd13032f4d9452deb25249880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Metallic.png using Guid(3a6c34ebd13032f4d9452deb25249880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67b845e0b485276854c48049c1954b0') in 0.013525 seconds
+  Import took 0.019471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Scattering.png
+  artifactKey: Guid(ab07eadd6d381c94d8dc0de4630eacf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Scattering.png using Guid(ab07eadd6d381c94d8dc0de4630eacf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e445f018a5e2bcf9d588e1349bb63e17') in 0.012294 seconds
+  Import took 0.018316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Normal.png
+  artifactKey: Guid(639a2c5765ba4bf48b40d710820b698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Normal.png using Guid(639a2c5765ba4bf48b40d710820b698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced1a69d247c13f05cb8d4e7cebac40f') in 0.018570 seconds
+  Import took 0.025048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Emissive.png
+  artifactKey: Guid(e8db0c4633e872d42979379069c3db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Emissive.png using Guid(e8db0c4633e872d42979379069c3db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6578c931dd4a6b199a4a6ff8bf1d5a') in 0.015929 seconds
+  Import took 0.021583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Height.png
+  artifactKey: Guid(cde4b224fd7089749be72377e19cafcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Height.png using Guid(cde4b224fd7089749be72377e19cafcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5734085570ad4a7339f9ecf45966b') in 0.012107 seconds
+  Import took 0.017924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Emissive.png
+  artifactKey: Guid(e8db0c4633e872d42979379069c3db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Emissive.png using Guid(e8db0c4633e872d42979379069c3db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6578c931dd4a6b199a4a6ff8bf1d5a') in 0.008651 seconds
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Height.png
+  artifactKey: Guid(cde4b224fd7089749be72377e19cafcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomo anciano/lambert1_Height.png using Guid(cde4b224fd7089749be72377e19cafcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5734085570ad4a7339f9ecf45966b') in 0.012811 seconds
+  Import took 0.018866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.019709 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Base_color.png
+  artifactKey: Guid(e20686c3dc1f3b24c92e1d2fe3b2f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Base_color.png using Guid(e20686c3dc1f3b24c92e1d2fe3b2f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56682b07f643a62aed76817eb2aa2645') in 0.012465 seconds
+  Import took 0.019067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Mixed_AO.png
+  artifactKey: Guid(996248e9c3f17034cbe0504fc78277fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Mixed_AO.png using Guid(996248e9c3f17034cbe0504fc78277fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe604d86113abc7fd998ceac9da688') in 0.011653 seconds
+  Import took 0.017533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Scattering.png
+  artifactKey: Guid(80df6f4201c14e54a944f0d124a83c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Scattering.png using Guid(80df6f4201c14e54a944f0d124a83c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b30a372be3264a545d2c4ca20955ee') in 0.008198 seconds
+  Import took 0.014551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Roughness.png
+  artifactKey: Guid(1d94c32be6093e14e8e17580f8d01612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Roughness.png using Guid(1d94c32be6093e14e8e17580f8d01612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c23ab9d04417e37746600c81efbf20') in 0.012025 seconds
+  Import took 0.018574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Height.png
+  artifactKey: Guid(c2fd99e72813c45498b64aa4ff7ae183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Height.png using Guid(c2fd99e72813c45498b64aa4ff7ae183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c4ac55529f1395fb53c6260251ba25') in 0.015067 seconds
+  Import took 0.022048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Normal.png
+  artifactKey: Guid(34ea7aa1f6d616941a273f44d8400716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Normal.png using Guid(34ea7aa1f6d616941a273f44d8400716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53518ffee595599fadbaa394469a2b01') in 0.012893 seconds
+  Import took 0.018672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Metallic.png
+  artifactKey: Guid(60f8b873d4d95b0458b0647d13d11ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Metallic.png using Guid(60f8b873d4d95b0458b0647d13d11ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d86d87b63d9ed555046b1827206961') in 0.007310 seconds
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Normal_DirectX.png
+  artifactKey: Guid(8171b1bcfe461c7459d5bf419015479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura_gnomo pequeño/lambert1_Normal_DirectX.png using Guid(8171b1bcfe461c7459d5bf419015479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee06cea6462cec842991084cc697aa8') in 0.011624 seconds
+  Import took 0.017149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552393 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Base_color.png
+  artifactKey: Guid(d5363556dd79ae046b0672be83ae2a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Base_color.png using Guid(d5363556dd79ae046b0672be83ae2a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf31454bb03595ae669949c1362d8cf') in 0.012968 seconds
+  Import took 0.019911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Scattering.png
+  artifactKey: Guid(1b7178b9eb2c9eb46a93f69bde86e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Scattering.png using Guid(1b7178b9eb2c9eb46a93f69bde86e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfe2df32dd44950fb0663e954cb5901') in 0.012582 seconds
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Normal.png
+  artifactKey: Guid(66c51acdd5a47614db4b980ed1b2c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Normal.png using Guid(66c51acdd5a47614db4b980ed1b2c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964005af5bda75889ae305ba7d4bd06') in 0.013604 seconds
+  Import took 0.019880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Normal_DirectX.png
+  artifactKey: Guid(dab36d263a1908a4f8abd699708f1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Normal_DirectX.png using Guid(dab36d263a1908a4f8abd699708f1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5eb7ff7aadc81aaa734c830ea0d0f8') in 0.012689 seconds
+  Import took 0.019131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Mixed_AO.png
+  artifactKey: Guid(dece2502cb79db0428cf011d45668bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Mixed_AO.png using Guid(dece2502cb79db0428cf011d45668bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbe335d36f29e693e3ae5353d0df27d') in 0.014150 seconds
+  Import took 0.020362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Emissive.png
+  artifactKey: Guid(3a83f09b2cb1183499445a37a4cdf33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Emissive.png using Guid(3a83f09b2cb1183499445a37a4cdf33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9402708bea06ef385be071c7591ad1') in 0.012237 seconds
+  Import took 0.018100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Roughness.png
+  artifactKey: Guid(d1c295ac329bcd74a908038bfbca0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Roughness.png using Guid(d1c295ac329bcd74a908038bfbca0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a24eb0214f754641651e6b6ad00d123') in 0.017098 seconds
+  Import took 0.022545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Height.png
+  artifactKey: Guid(00f8ced9c9d59e74886d4b922b395be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Height.png using Guid(00f8ced9c9d59e74886d4b922b395be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce5509cc6b5faff9a52876d6deac602') in 0.014363 seconds
+  Import took 0.020880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Metallic.png
+  artifactKey: Guid(a81f69326476a8a4f9a2a29efb648c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/textura gnomomadre 2/lambert2_Metallic.png using Guid(a81f69326476a8a4f9a2a29efb648c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36658c34650f614cbffc76fb73318e11') in 0.012975 seconds
+  Import took 0.019698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954353 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Base_color.png
+  artifactKey: Guid(970ff4c6a5d1ccc4ca425e7d334d8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Base_color.png using Guid(970ff4c6a5d1ccc4ca425e7d334d8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8db457dc85f9fae65077d55adac603') in 0.013622 seconds
+  Import took 0.021476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Normal.png
+  artifactKey: Guid(26c5b58a6b7d81c4c872e42c081bf781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Normal.png using Guid(26c5b58a6b7d81c4c872e42c081bf781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af01f90b94f53a740bced3db6a44eaf1') in 0.008335 seconds
+  Import took 0.014570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Normal_DirectX.png
+  artifactKey: Guid(f489d5b2ba8c8ed4cabd23105b677262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Normal_DirectX.png using Guid(f489d5b2ba8c8ed4cabd23105b677262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf3a1ba22505cc25293453826df4b38') in 0.015409 seconds
+  Import took 0.021769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Roughness.png
+  artifactKey: Guid(b2946087655d79f479781ede0981e3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Roughness.png using Guid(b2946087655d79f479781ede0981e3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b843d21d4f089ed67b6cc155fe952d2') in 0.011993 seconds
+  Import took 0.018238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Emissive.png
+  artifactKey: Guid(6abdba536f91c3c47afb0a47f432c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Emissive.png using Guid(6abdba536f91c3c47afb0a47f432c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51db2c54b3b1d873fa609fc6bbd52b4e') in 0.011254 seconds
+  Import took 0.018452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Metallic.png
+  artifactKey: Guid(b8971bcfffe07db4b8727eb189485f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Metallic.png using Guid(b8971bcfffe07db4b8727eb189485f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f586239b7f2e9eb94c987fce7400c64') in 0.013290 seconds
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Height.png
+  artifactKey: Guid(ed966914d4f468e4fb7d92ba0a475159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Height.png using Guid(ed966914d4f468e4fb7d92ba0a475159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a2a4c920995c1e393132aa2226fe4f') in 0.016379 seconds
+  Import took 0.022128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Scattering.png
+  artifactKey: Guid(6e5dce926e174ec44897a500fefe5274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Scattering.png using Guid(6e5dce926e174ec44897a500fefe5274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba26331d4b80aac05850c0505184af16') in 0.007987 seconds
+  Import took 0.014023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Mixed_AO.png
+  artifactKey: Guid(b2e2483af29d4f144add80fa39210328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/texturas gnomos/texturas gnomo-madre/lambert2_Mixed_AO.png using Guid(b2e2483af29d4f144add80fa39210328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb49b1aa18c618f60c7a66a11353b1') in 0.011134 seconds
+  Import took 0.017274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.665917 seconds.
+  path: Assets/Lukas/personages/gnomos
+  artifactKey: Guid(742515b7357cac047b819fef767beec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos using Guid(742515b7357cac047b819fef767beec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec6b930966f237b5ca6f08a5cf9a767') in 0.006462 seconds
+  Import took 0.013512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.646621 seconds.
+  path: Assets/Lukas/personages/gnomos/materials
+  artifactKey: Guid(9192e0353f2573743a2f3bf544fe950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials using Guid(9192e0353f2573743a2f3bf544fe950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5f8d188b62c5b66d1a20fdc112b13d') in 0.005791 seconds
+  Import took 0.011674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.391144 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material.mat
+  artifactKey: Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material.mat using Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cc2e54eaba2a36d8d5a6f123b1ec74') in 0.008547 seconds
+  Import took 0.015737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.587218 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 1.mat
+  artifactKey: Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 1.mat using Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ac7dab71f7d9e238ace5d78c823a7c') in 0.007166 seconds
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material.mat
+  artifactKey: Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material.mat using Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce06149d0282b84876bfb38beea3662') in 0.013111 seconds
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.881159 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material.mat
+  artifactKey: Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material.mat using Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe4862de5539c42a64462bc722ab404') in 0.008486 seconds
+  Import took 0.014333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.401736 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 1.mat
+  artifactKey: Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 1.mat using Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd73f8a38df1ea6354e03bea5aaa9c2') in 0.009744 seconds
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material.mat
+  artifactKey: Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material.mat using Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ea150715bd9ae8829bac0239da5040') in 0.014488 seconds
+  Import took 0.020885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.579358 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 1.mat
+  artifactKey: Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 1.mat using Guid(d3c19933d17d7494cac9a54833421a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976aa4987235b520971fc29a1323aef') in 0.014728 seconds
+  Import took 0.020828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 2.mat
+  artifactKey: Guid(21c2dd13e3133fa4e92546e73444eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 2.mat using Guid(21c2dd13e3133fa4e92546e73444eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db29d6196388dfad0592409e8b1e90') in 0.007095 seconds
+  Import took 0.012607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.484965 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 2.mat
+  artifactKey: Guid(21c2dd13e3133fa4e92546e73444eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 2.mat using Guid(21c2dd13e3133fa4e92546e73444eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb6548712e2ab8e454a79dfc4143a0') in 0.012947 seconds
+  Import took 0.019070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 3.mat
+  artifactKey: Guid(533c1b48b011013448625e41aa8f4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 3.mat using Guid(533c1b48b011013448625e41aa8f4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2ca48ecc3c762b759d02b8e5cf2f2') in 0.007390 seconds
+  Import took 0.012806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.645603 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 3.mat
+  artifactKey: Guid(533c1b48b011013448625e41aa8f4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 3.mat using Guid(533c1b48b011013448625e41aa8f4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f4107f983f785ef280a9e42d54379d') in 0.016585 seconds
+  Import took 0.023202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 4.mat
+  artifactKey: Guid(ceae6fdc40d145343b946a03d80c5eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 4.mat using Guid(ceae6fdc40d145343b946a03d80c5eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3ff4780c2d4a2a25883166c6b270e7') in 0.012840 seconds
+  Import took 0.018327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material.mat
+  artifactKey: Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material.mat using Guid(f3772eb6338fa87409fd0d78ababe5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef5da66ede04e43ed251612b33e6cf') in 0.018072 seconds
+  Import took 0.024108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1187.859922 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 4.mat
+  artifactKey: Guid(ceae6fdc40d145343b946a03d80c5eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 4.mat using Guid(ceae6fdc40d145343b946a03d80c5eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2cc8863a1449b09e64ecc8e5a9d313') in 0.065126 seconds
+  Import took 0.071482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Lukas/personages/gnomos/materials/New Material 5.mat
+  artifactKey: Guid(fc646bf6292c30b4bbe056ce4ce11f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/gnomos/materials/New Material 5.mat using Guid(fc646bf6292c30b4bbe056ce4ce11f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2751d65686f39b4df82ac536375c8f') in 0.011232 seconds
+  Import took 0.016251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.460627 seconds.
+  path: Assets/Lukas/personages/casitas/MATERIALS/New Material.mat
+  artifactKey: Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/MATERIALS/New Material.mat using Guid(d317d8a50f1b00d429807f0845f4f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8dd2901a6a64ebfb8c6a0c66db8d4f') in 0.058806 seconds
+  Import took 0.066532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.482096 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino
+  artifactKey: Guid(9c99515da4343f34f8415be792119b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino using Guid(9c99515da4343f34f8415be792119b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef15cf8072ccadc7d80bacd428f86e5') in 0.006459 seconds
+  Import took 0.014366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038651 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Base_color.png
+  artifactKey: Guid(9c63faeb8f0d76e49a005def2c64648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Base_color.png using Guid(9c63faeb8f0d76e49a005def2c64648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76a758737ae49e179a8054aa5394bec') in 0.014937 seconds
+  Import took 0.021114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Mixed_AO.png
+  artifactKey: Guid(31ce1a34962ccc447b995aff62aab02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Mixed_AO.png using Guid(31ce1a34962ccc447b995aff62aab02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945888f619a708cbfef995fffae8309c') in 0.011158 seconds
+  Import took 0.017678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Normal_DirectX.png
+  artifactKey: Guid(b7685702a839a834e86b0bfd24566acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Normal_DirectX.png using Guid(b7685702a839a834e86b0bfd24566acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b030afbca52e309ff8fd97e2419e7f') in 0.012335 seconds
+  Import took 0.018619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Height.png
+  artifactKey: Guid(52a0436d0666d904b970f5875fd63ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Height.png using Guid(52a0436d0666d904b970f5875fd63ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1885ba048c8f300050470d15fbf6680') in 0.012651 seconds
+  Import took 0.019602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Normal.png
+  artifactKey: Guid(0ea123f843eb27f41b7596a476a4212a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Normal.png using Guid(0ea123f843eb27f41b7596a476a4212a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d08bdfe76f6e3ce18aadfd750c6f77') in 0.011555 seconds
+  Import took 0.016939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Roughness.png
+  artifactKey: Guid(0514ee0043a20d2459713c26a2162672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Roughness.png using Guid(0514ee0043a20d2459713c26a2162672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa6a8374d74fb2abbcb4cb2a167c271') in 0.012840 seconds
+  Import took 0.019180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Normal.png
+  artifactKey: Guid(6b5b1e325b3eec14890b1cd0cc576825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Normal.png using Guid(6b5b1e325b3eec14890b1cd0cc576825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1fe503b5e11e6143e8ecc27534d27') in 0.012441 seconds
+  Import took 0.018687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Base_color.png
+  artifactKey: Guid(8e9dcde7da975bf478d823dc0066a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Base_color.png using Guid(8e9dcde7da975bf478d823dc0066a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aaa2160267b7e132853f5451c7c76b') in 0.013169 seconds
+  Import took 0.019246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Height.png
+  artifactKey: Guid(6f5538642d20cb5428091a1070d76254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Height.png using Guid(6f5538642d20cb5428091a1070d76254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfedc4a687bf7942548bbd2f5b75dd5') in 0.015962 seconds
+  Import took 0.021933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Metallic.png
+  artifactKey: Guid(bca78d4b77d13944da75e9ebfbb70d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Metallic.png using Guid(bca78d4b77d13944da75e9ebfbb70d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6fe630f0a4a333108031f77aae33b') in 0.012751 seconds
+  Import took 0.019571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Scattering.png
+  artifactKey: Guid(f13c904f563d92b4b9d87c174f51b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Scattering.png using Guid(f13c904f563d92b4b9d87c174f51b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51872e50ae965908b17cc5ea0bd479bd') in 0.014103 seconds
+  Import took 0.020798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Metallic.png
+  artifactKey: Guid(1a897428e67220444be2969710248a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert1_Metallic.png using Guid(1a897428e67220444be2969710248a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d63b45e28444438a2c406c373eda72') in 0.016616 seconds
+  Import took 0.022235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.724061 seconds.
+  path: Assets/Lukas/personages/casitas/MATERIALS/New Material 4.mat
+  artifactKey: Guid(55ab41629db42104886b28a83f5c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/MATERIALS/New Material 4.mat using Guid(55ab41629db42104886b28a83f5c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6cd546913d2f079618930858dafe8e') in 0.012843 seconds
+  Import took 0.019784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.582054 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Normal_DirectX.png
+  artifactKey: Guid(f6f3a8c619bce4b488221e5434b72894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Normal_DirectX.png using Guid(f6f3a8c619bce4b488221e5434b72894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e453346dfe42d0cf0eed3aac33315f6a') in 0.013833 seconds
+  Import took 0.020264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054337 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Opacity.png
+  artifactKey: Guid(fdfb5745e1308cb4196d3ce60bced448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Opacity.png using Guid(fdfb5745e1308cb4196d3ce60bced448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038ad72dd567832c7b85a05a58a325b6') in 0.011001 seconds
+  Import took 0.017075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.694330 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Roughness.png
+  artifactKey: Guid(e3ff639acc52dc1419d6a736fc4bc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Roughness.png using Guid(e3ff639acc52dc1419d6a736fc4bc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28411a27e49dd9f23352c05d15af8d27') in 0.013022 seconds
+  Import took 0.020051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006114 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Roughness.png
+  artifactKey: Guid(e3ff639acc52dc1419d6a736fc4bc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Roughness.png using Guid(e3ff639acc52dc1419d6a736fc4bc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28411a27e49dd9f23352c05d15af8d27') in 0.008134 seconds
+  Import took 0.015793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007396 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Scattering.png
+  artifactKey: Guid(fa65cd64e38beab43802a28d1c44a405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura molino/lambert5_Scattering.png using Guid(fa65cd64e38beab43802a28d1c44a405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7112dd78708eaf4d5f6a1e16055f1c') in 0.012194 seconds
+  Import took 0.018731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.763838 seconds.
+  path: Assets/Lukas/personages/casitas/MATERIALS/New Material 4.mat
+  artifactKey: Guid(55ab41629db42104886b28a83f5c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/MATERIALS/New Material 4.mat using Guid(55ab41629db42104886b28a83f5c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7b20f9568e397a54f8da2f05a50ac0') in 0.017768 seconds
+  Import took 0.024352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Lukas/personages/casitas/MATERIALS/New Material 5.mat
+  artifactKey: Guid(95d4c31b7ad3a1b44b0f03043dd9c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/MATERIALS/New Material 5.mat using Guid(95d4c31b7ad3a1b44b0f03043dd9c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037c70a720abd98479f0348d1238bc1f') in 0.011183 seconds
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 854.380022 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña
+  artifactKey: Guid(b4f80413bbc44084f844376dfd78f506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña using Guid(b4f80413bbc44084f844376dfd78f506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ba3b169a70d92f98f5112df25dd756') in 0.006091 seconds
+  Import took 0.012880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.497279 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Base_color.png
+  artifactKey: Guid(8b45daeaae9305e498efa2f45d3734a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Base_color.png using Guid(8b45daeaae9305e498efa2f45d3734a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363b62fa487ce1c8269986834b7f2e64') in 0.016803 seconds
+  Import took 0.022894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Roughness.png
+  artifactKey: Guid(effbcfe38e752a84eaa944d60d6fd237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Roughness.png using Guid(effbcfe38e752a84eaa944d60d6fd237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d750a165aaa0d039e9b41cfd22e3d2c') in 0.010147 seconds
+  Import took 0.015023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Scattering.png
+  artifactKey: Guid(38e31eda0b0ced640a8cae3f304cb296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Scattering.png using Guid(38e31eda0b0ced640a8cae3f304cb296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dd9bac41479dd31238e263596ca534') in 0.009308 seconds
+  Import took 0.014213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Height.png
+  artifactKey: Guid(d1e0b41be8d58444b9de239701b9fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Height.png using Guid(d1e0b41be8d58444b9de239701b9fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e78506301431c2f705d9f32bf2166be') in 0.009461 seconds
+  Import took 0.014497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Metallic.png
+  artifactKey: Guid(0835d3d10961dcc409c712d0622f4ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Metallic.png using Guid(0835d3d10961dcc409c712d0622f4ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aecb3c0e67300ded9a973332fcddb2') in 0.006851 seconds
+  Import took 0.011943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Normal_DirectX.png
+  artifactKey: Guid(7505ac7cb36fa4c4e8fa4392e3cc7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Normal_DirectX.png using Guid(7505ac7cb36fa4c4e8fa4392e3cc7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fddc28799d0b2e57775e0a860fff9a') in 0.010292 seconds
+  Import took 0.015332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Opacity.png
+  artifactKey: Guid(456c6b315a22bf94ba0b0f0376180609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Opacity.png using Guid(456c6b315a22bf94ba0b0f0376180609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a798607f9ac4641c15d758d70cf44d') in 0.010975 seconds
+  Import took 0.015999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Mixed_AO.png
+  artifactKey: Guid(4e887ec99f84ad541896c7e357e224a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Mixed_AO.png using Guid(4e887ec99f84ad541896c7e357e224a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3382e3d63432d01a3ce3895b17fe0d19') in 0.011657 seconds
+  Import took 0.017540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Normal.png
+  artifactKey: Guid(89ab6d33f455aae419bdf5add7660544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lukas/personages/casitas/casas texturizadas/textura casa pequeña/lambert1_Normal.png using Guid(89ab6d33f455aae419bdf5add7660544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de11cd488d938a49e9216818a236599') in 0.013385 seconds
+  Import took 0.019182 seconds .
+
