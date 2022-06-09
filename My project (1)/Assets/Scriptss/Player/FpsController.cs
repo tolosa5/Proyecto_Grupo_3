@@ -5,6 +5,8 @@ using UnityEngine;
 public class FpsController : MonoBehaviour
 {
     GameObject cam;
+    Transform prota;
+
     Camera camComp;
     [HideInInspector] public Vector3 movementY;
     float factorG = -9.81f;
@@ -20,7 +22,7 @@ public class FpsController : MonoBehaviour
     [HideInInspector] public float h;
     [HideInInspector] public float v;
     float currentSpeed;
-    float standingSpeed = 7;
+    float standingSpeed = 6;
     float dashCooldown;
     bool isDashing;
     bool isGrappling;
@@ -60,6 +62,8 @@ public class FpsController : MonoBehaviour
         chC = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
 
+        prota = transform.GetChild(0);
+
         currentSpeed = standingSpeed;
     }
 
@@ -72,6 +76,8 @@ public class FpsController : MonoBehaviour
                 if (!Player.player.busy)
                 {
                     Movement();
+                    Debug.Log("ey");
+                    Debug.Log(v);
                 }
                 if (!preparingDash)
                 {
@@ -88,7 +94,7 @@ public class FpsController : MonoBehaviour
                 StartCoroutine(HookAnimation());
                 if (!hookAnim)
                 {
-                    HookMovementWall();
+                    HookMovementWall(); // al final no se usa no da tiempo, pero lo dejo para cuando sigamos el juego en verano
                 }
                 
                 break;
@@ -130,11 +136,32 @@ public class FpsController : MonoBehaviour
     void Movement()
     {
         direction = transform.forward * v + transform.right * h;
-
-        if (!isDashing || (isDashing && dashCooldown > 0.2f && dashCooldown < 2f))
+        if (h != 0 || v != 0 )
         {
-            chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
+            anim.SetBool("BoolWalk", true);
+        }
+        else
+        {
+            anim.SetBool("BoolWalk", false);
+        }
 
+        chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            prota.Rotate(new Vector3(prota.eulerAngles.x, 0, prota.eulerAngles.x), 20 * Time.deltaTime);
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            prota.Rotate(new Vector3(prota.eulerAngles.x, -90, prota.eulerAngles.x), 20 * Time.deltaTime);
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            prota.eulerAngles = new Vector3(prota.eulerAngles.x, 90, prota.eulerAngles.x);
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+            prota.eulerAngles = new Vector3(prota.eulerAngles.x, 180, prota.eulerAngles.x);
         }
     }
 

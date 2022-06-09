@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bow : MonoBehaviour
 {
     [SerializeField] GameObject arrow;
+    float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,8 @@ public class Bow : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(Player.player.prota.transform.eulerAngles));
+            //Debug.Break();
+            //Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(Player.player.prota.transform.eulerAngles));
         }
     }
 }
