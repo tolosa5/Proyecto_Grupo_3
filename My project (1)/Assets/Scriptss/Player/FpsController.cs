@@ -87,7 +87,6 @@ public class FpsController : MonoBehaviour
                 Jump();
                 Dash();
                 HookStart();
-                Rotation();
                 
                 break;
             
@@ -137,35 +136,33 @@ public class FpsController : MonoBehaviour
     void Movement()
     {
         direction = transform.forward * v + transform.right * h;
-
-        if (!isDashing || (isDashing && dashCooldown > 0.2f && dashCooldown < 2f))
+        if (direction != Vector3.zero)
         {
+            Quaternion targetRotation = Quaternion.LookRotation(direction, Vector3.up);
+
+            prota.transform.rotation = targetRotation;
+
+            //float targetAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+            //prota.transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
+
             chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
+        }
 
-        }
-    }
-
-    void Rotation()
-    {
-        if (h < 0)
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, -90f, 0.1f * Time.deltaTime), 0);
-            Debug.Log("izquierda");
+            prota.transform.eulerAngles = new Vector3(prota.transform.eulerAngles.x, 0, prota.transform.eulerAngles.x);
         }
-        else if (h > 0)
+        else if (Input.GetKeyDown(KeyCode.A))
         {
-            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 90f, 0.1f * Time.deltaTime), 0);
-            Debug.Log("derecha");
+            prota.transform.eulerAngles = new Vector3(prota.transform.eulerAngles.x, -90, prota.transform.eulerAngles.x);
         }
-        else if (v > 0)
+        else if (Input.GetKeyDown(KeyCode.D))
         {
-            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 0f, 0.1f * Time.deltaTime), 0);
-            Debug.Log("arriba");
+            prota.transform.eulerAngles = new Vector3(prota.transform.eulerAngles.x, 90, prota.transform.eulerAngles.x);
         }
-        else if (v < 0)
+        else if (Input.GetKeyDown(KeyCode.S))
         {
-            prota.transform.eulerAngles = new Vector3(0, Mathf.Lerp(transform.eulerAngles.y, 180f, 0.1f * Time.deltaTime), 0);
-            Debug.Log("abajo");
+            prota.transform.eulerAngles = new Vector3(prota.transform.eulerAngles.x, 180, prota.transform.eulerAngles.x);
         }
     }
 

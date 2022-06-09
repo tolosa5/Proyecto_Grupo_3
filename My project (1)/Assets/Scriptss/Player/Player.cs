@@ -172,7 +172,7 @@ public class Player : MonoBehaviour
         //ATACAR
         if (Input.GetKeyDown(KeyCode.UpArrow) && sword)
         {
-            anim.SetTrigger("TriggerAttack");
+            anim.SetTrigger("TriggerSword");
             atacando = true;
             swordScr.Atacking();
         }
