@@ -23,6 +23,7 @@ public class Diana : MonoBehaviour
         {
             Destroy(other.gameObject);
             arrowDetected = true;
+            Debug.Log("flecheado");
         }
     }
 }

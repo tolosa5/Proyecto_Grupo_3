@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 {
     public static Player player;
     public GameObject prota;
+    public bool bowShooting;
 
     int lifes = 3;
     int totalLifes = 3;
@@ -22,6 +23,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject lifesGO;
     [SerializeField] GameObject weapons;
     [SerializeField] Image[] lifesImage;
+
+    [SerializeField] GameObject arrow;
 
     RaycastHit hit;
 
@@ -41,7 +44,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject hookGO;
     bool hook;
     [SerializeField] GameObject bowGO;
-    bool bow;
+    [SerializeField] bool bow;
     [SerializeField] GameObject spearGO;
     bool spear;
     
@@ -90,7 +93,11 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            
+            Collider[] colls = Physics.OverlapSphere(transform.position + transform.forward, 1, isInteractable);
+            if (colls.Length > 0)
+            {
+
+            }
             if (Physics.Raycast(transform.position, transform.forward, out hit, 5, isInteractable))
             {
                 //COGER ARMAS
@@ -106,10 +113,12 @@ public class Player : MonoBehaviour
                     hit.collider.gameObject.SetActive(false);
                     shield = true;
                 }
-                else if (hit.collider.gameObject.CompareTag("PickBow"))
+                else if (hit.collider.gameObject.CompareTag("PickBow")) //no va y ni idea de por que
                 {
                     hit.collider.gameObject.SetActive(false);
                     bow = true;
+                    Bow bowScr = GetComponentInChildren<Bow>();
+                    Debug.Log("get cogido");
                 }
                 else if (hit.collider.gameObject.CompareTag("PickSpear"))
                 {
@@ -211,6 +220,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    void BowShoot()
+    {
+        Debug.Break();
+        Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(prota.transform.eulerAngles));
+    }
+
     //anim event
     void BowOff()
     {
@@ -273,6 +288,14 @@ public class Player : MonoBehaviour
         {
             lifes--;
             transform.position = lastCheckPoint;
+        }
+
+        else if (other.gameObject.CompareTag("PickBow"))
+        {
+            other.gameObject.SetActive(false);
+            bow = true;
+            Bow bowScr = GetComponentInChildren<Bow>();
+            Debug.Log("get cogido");
         }
     }
 

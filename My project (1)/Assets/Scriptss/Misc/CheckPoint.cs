@@ -11,6 +11,8 @@ public class CheckPoint : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Player.player.lastCheckPoint = myCheckPoint;
+            Debug.Log("pillado");
+            Debug.Log(Player.player.lastCheckPoint);
         }
     }
 }
