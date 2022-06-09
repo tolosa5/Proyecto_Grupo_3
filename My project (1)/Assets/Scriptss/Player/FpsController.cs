@@ -45,6 +45,8 @@ public class FpsController : MonoBehaviour
     bool wallHooked;
     Vector3 aimedPoint;
 
+    float turnSmoothVelocity;
+
     //Estados del Script
     State state;
 
@@ -135,7 +137,7 @@ public class FpsController : MonoBehaviour
 
     void Movement()
     {
-        direction = transform.forward * v + transform.right * h;
+        direction = Vector3.forward * v + Vector3.right * h;
         if (h != 0 || v != 0 )
         {
             anim.SetBool("BoolWalk", true);
@@ -145,29 +147,46 @@ public class FpsController : MonoBehaviour
             anim.SetBool("BoolWalk", false);
         }
 
-        chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
+        //COSECHA PROPIA
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (h < 0)
         {
-            prota.Rotate(new Vector3(prota.eulerAngles.x, 0, prota.eulerAngles.x), 20 * Time.deltaTime);
+            float hlerp = Mathf.Lerp(transform.eulerAngles.y, 270, 100 * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, hlerp, 0);
+            float hClamp = Mathf.Clamp(transform.eulerAngles.y, transform.rotation.eulerAngles.y, hlerp);
+            transform.eulerAngles = new Vector3(0, hClamp, 0);
+
+            // vaya coñazo las rotaciones
+
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (h > 0)
         {
-            prota.Rotate(new Vector3(prota.eulerAngles.x, -90, prota.eulerAngles.x), 20 * Time.deltaTime);
+            float h2lerp = Mathf.Lerp(transform.eulerAngles.y, 90, 100 * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, h2lerp, 0);
+            float h2Clamp = Mathf.Clamp(transform.eulerAngles.y, transform.rotation.eulerAngles.y, h2lerp);
+            transform.eulerAngles = new Vector3(0, h2Clamp, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (v < 0)
         {
-            prota.eulerAngles = new Vector3(prota.eulerAngles.x, 90, prota.eulerAngles.x);
+            float vlerp = Mathf.Lerp(transform.eulerAngles.y, 180, 100 * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, vlerp, 0);
+            float vClamp = Mathf.Clamp(transform.eulerAngles.y, transform.rotation.eulerAngles.y, vlerp);
+            transform.eulerAngles = new Vector3(0, vClamp, 0);
+
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (v > 0)
         {
-            prota.eulerAngles = new Vector3(prota.eulerAngles.x, 180, prota.eulerAngles.x);
+            float v2lerp = Mathf.Lerp(transform.eulerAngles.y, 0, 100 * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, v2lerp, 0);
+            float v2Clamp = Mathf.Clamp(transform.eulerAngles.y, transform.rotation.eulerAngles.y, v2lerp);
+            transform.eulerAngles = new Vector3(0, v2Clamp, 0);
         }
+
+        chC.Move(direction.normalized * currentSpeed * Time.deltaTime);
     }
 
     void Jump()
     {
-        //Translate para la gravedad. Dos deltas porque m/s^2
         movementY.y += factorG * Time.deltaTime;
 
         chC.Move(movementY * Time.deltaTime);

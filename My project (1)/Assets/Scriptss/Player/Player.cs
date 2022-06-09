@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     
     Sword swordScr;
     [SerializeField] GameObject swordGO;
-    bool sword;
+    [SerializeField] bool sword;
     
     Shield shieldScr;
     [SerializeField] GameObject shieldGO;
@@ -144,6 +144,7 @@ public class Player : MonoBehaviour
                     GameObject chestGO = hit.collider.gameObject;
                     Chest chestScr = chestGO.GetComponent<Chest>();
                     chestScr.OpenAnim();
+                    key++;
                 }
                 
                 //COSAS DE LAS LLAVES
@@ -159,11 +160,12 @@ public class Player : MonoBehaviour
                 }
                 else if (hit.collider.gameObject.CompareTag("Door"))
                 {
+                    Debug.Log("open");
                     if (key >= 1)
                     {
                         key--;
                         GameObject doorGO = hit.collider.gameObject;
-                        //pillar script, abrirla, animacion
+                        doorGO.SetActive(false);
                     }
                 }
                 else if (hit.collider.gameObject.CompareTag("BossDoor"))
@@ -223,7 +225,7 @@ public class Player : MonoBehaviour
     void BowShoot()
     {
         Debug.Break();
-        Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(prota.transform.eulerAngles));
+        Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(transform.eulerAngles));
     }
 
     //anim event
