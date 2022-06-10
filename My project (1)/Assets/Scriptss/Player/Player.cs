@@ -145,9 +145,8 @@ public class Player : MonoBehaviour
                 }
                 else if (hit.collider.gameObject.CompareTag("Smith"))
                 {
-                    Talk();
-                    door = GameObject.FindGameObjectWithTag("Door");
-                    door.GetComponent<BoxCollider>().isTrigger = true;
+                    Talking();                   
+                    //poner un cofre como interactuable para abrirlo y pillar la llave
                 }
 
                 //COFRE
