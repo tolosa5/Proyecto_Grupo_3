@@ -7,7 +7,7 @@ public class DungeonMaster : MonoBehaviour
     public static DungeonMaster sharedDM;
 
     GameObject dianaGO;
-    Diana dianaScr;
+    DianaDungeon dianaScr;
 
     GameObject detectorGO;
     //Detector detectorScr;
@@ -37,7 +37,7 @@ public class DungeonMaster : MonoBehaviour
     void Start()
     {
         dianaGO = GameObject.FindGameObjectWithTag("Diana");
-        dianaScr = dianaGO.GetComponent<Diana>();
+        dianaScr = dianaGO.GetComponent<DianaDungeon>();
 
         detectorGO = GameObject.FindGameObjectWithTag("Detector");
         //detectorScr = detectorGO.GetComponent<Detector>();
@@ -60,6 +60,7 @@ public class DungeonMaster : MonoBehaviour
 
         if (dianaScr.arrowDetected == true)
         {
+            Debug.Log("KKDVAK");
             bridgeGO.SetActive(true);
         }
     }
