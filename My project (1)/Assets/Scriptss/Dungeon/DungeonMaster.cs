@@ -58,7 +58,7 @@ public class DungeonMaster : MonoBehaviour
             ActivatedPreassure2();
         }
 
-        else if (dianaScr.arrowDetected == true)
+        if (dianaScr.arrowDetected == true)
         {
             bridgeGO.SetActive(true);
         }

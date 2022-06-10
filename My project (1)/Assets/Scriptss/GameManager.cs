@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager gM;
     public Vector3 newScenePositionGm;
+
+    [HideInInspector] public float arrowDetected;
+
+    [SerializeField] GameObject door;
+
     [HideInInspector] public Animator animSlider;
 
     [HideInInspector] public GameObject marco;
@@ -46,6 +51,12 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         keysText.text = "Keys: " + Player.player.key;
+
+        if (arrowDetected == 2)
+        {
+            door.SetActive(false);
+            arrowDetected = 0;
+        }
     }
 
     void OnSceneLoaded(Scene loadedScene, LoadSceneMode loadMode)
