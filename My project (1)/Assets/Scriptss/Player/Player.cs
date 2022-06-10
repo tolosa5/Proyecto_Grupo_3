@@ -170,7 +170,7 @@ public class Player : MonoBehaviour
                     Debug.Log("llaveGrande");
                     bossKey = true;
                 }
-                else if (hit.collider.gameObject.CompareTag("Door"))
+                if (hit.collider.gameObject.CompareTag("Door"))
                 {
                     Debug.Log("open");
                     if (key >= 1)
@@ -363,6 +363,15 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Preassure"))
         {
             DungeonMaster.sharedDM.timesPressed--;
+        }
+    }
+
+    private void OnCollisionEnter(Collision other) 
+    {
+        if (other.gameObject.CompareTag("Door") && key > 0)
+        {
+            other.gameObject.SetActive(false);
+            key--;
         }
     }
 

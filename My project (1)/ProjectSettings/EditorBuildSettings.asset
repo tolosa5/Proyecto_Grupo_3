@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TutorialDiego.unity
-    guid: 16bf63ce6c23e934caf7065aa9e16812
+    path: Assets/Scenes/TutorialDiego 1.unity
+    guid: c8f7a44b268e6c74fbcb527da266e3a1
   - enabled: 1
     path: Assets/Scenes/Zona1Diego.unity
     guid: 89aeb04370288c34c83b6145e715526b
   - enabled: 1
-    path: Assets/Scenes/MazmorraDiego.unity
-    guid: 658a86b13350de74b87c8c5ea7c8ca9b
+    path: Assets/Scenes/EscenasFinales/MazmorraFinale Final.unity
+    guid: 11c5d69e92741f44cb3ddb45b68c71cd
   m_configObjects: {}
