@@ -5,6 +5,7 @@ using UnityEngine;
 public class Diana : MonoBehaviour
 {
     [HideInInspector] public bool arrowDetected;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +23,10 @@ public class Diana : MonoBehaviour
         if (other.gameObject.CompareTag("Arrow"))
         {
             Destroy(other.gameObject);
-            arrowDetected = true;
+            GameManager.gM.arrowDetected++;
             Debug.Log("flecheado");
+            arrowDetected = true;
+            arrowDetected = false;
         }
     }
 }

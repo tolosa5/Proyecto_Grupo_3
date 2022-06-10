@@ -268,12 +268,12 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // if (other.gameObject.CompareTag("BridgeCinematic"))
-        // {
-        //     GoBusy();
-        //     bridgeCinematic.Play();
-        //     cinematicTrigger.SetActive(false);
-        // }
+        if (other.gameObject.CompareTag("BridgeCinematic"))
+        {
+            GoBusy();
+            bridgeCinematic.Play();
+            cinematicTrigger.SetActive(false);
+        }
 
 
         if (other.gameObject.CompareTag("Preassure"))
