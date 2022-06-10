@@ -6,19 +6,22 @@ public class DungeonMaster : MonoBehaviour
 {
     public static DungeonMaster sharedDM;
 
+    bool done;
+
     GameObject dianaGO;
     DianaDungeon dianaScr;
 
     GameObject detectorGO;
     //Detector detectorScr;
 
-    [Range(0, 3)]
     public int timesPressed;
 
     [SerializeField] GameObject wallGO;
     [SerializeField] GameObject bridgeGO;
     [SerializeField] BoxCollider[] preassureColls;
     [SerializeField] GameObject[] chests;
+
+    [SerializeField] GameObject door, miniBridge;
 
     // Start is called before the first frame update
 
@@ -50,7 +53,11 @@ public class DungeonMaster : MonoBehaviour
         
         if (timesPressed == 2)
         {
-            ActivatedPreassure();
+            if (!done)
+            {
+                ActivatedPreassure();
+
+            }
         }
 
         else if (timesPressed == 3)
@@ -67,11 +74,13 @@ public class DungeonMaster : MonoBehaviour
 
     void ActivatedPreassure()
     {
+        done = true;
         for (int i = 0; i < 1; i++)
         {
             preassureColls[i].enabled = false;
         }
         chests[0].SetActive(true);
+        timesPressed = 0;
     }
 
     void ActivatedPreassure2()
@@ -80,6 +89,9 @@ public class DungeonMaster : MonoBehaviour
         {
             preassureColls[i].enabled = false;
         }
+        miniBridge.SetActive(true);
+        door.SetActive(false);
+        chests[4].SetActive(true);
     }
 
     public void KeyChest()
