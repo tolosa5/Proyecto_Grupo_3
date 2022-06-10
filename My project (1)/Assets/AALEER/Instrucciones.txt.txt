@@ -1,0 +1,30 @@
+WASD - Moverse
+E - Interactuar
+I - Espada
+L - Lanza
+J - Arco
+k - Pose chula
+
+No tienes todas las habilidades nada más empezar, pero se consiguen todas en el tutorial.
+
+Inicia con el jugador delante de una espada, la coge y puede cortar los setos de delante suya (hay que echar imaginación).
+Luego hay que coger la lanza para activar un interruptor y poder sortear el boquete y 
+por último disparar con el arco a unas dianas a los lados.
+En la siguiente zona hay que ir a la derecha y hablar con la casa al final del camino del pueblo para obtener la llave y poder
+entrar an la mazmorra a la izquierda de donde apareces (aunque no hace falta la llave en realidad).
+En la mazmorra primero se va a la izquierda y se resuelve el puzzle de la sala para obtener una (o infinitas) llaves
+y se avanza desde la sala inicial. Una vez llegado a ese punto hay que ir a la derecha hasta el final del camino y matar al enemigo para otra llave. 
+Se regresa al mismo punto pero esta vez se va a la derecha hasta el final del camino. Te quedarás atrapado en una sala de la que hay que salir usando la lanza.
+Se vuelve a la bifurcación de antes y ya no estará la pared del fondo, a si que se podrá disparar a la diana (o más bien cubo azul)
+del otro lado para activar un puente.
+llegarás a otra bifurcación más. De nuevo, ve a la izquierda para más enemigos y una llave en una sala a la que hay que acceder 
+usando la lanza en el interruptor. Finalmente vas a la derecha del pasillo hasta el final, resolviendo el puzzle de las cajas.
+
+
+En principio no era todo tal que así, el diseño era diferente y habría un jefe pero por falta de tiempo no se ha podido.
+
+
+El diseño es un poco caótico ya que ha habido que cambiar muchas cosas para llegar a la entrega, a si que hay que avanzar y probar
+cosas poco intuitivas para llegar al final.
+Ha habido varios problemas de última hora que no se han podido solucionar (como que los enemigos ya no persiguen al jugador 
+o que se pueden conseguir llaves infinitas).
