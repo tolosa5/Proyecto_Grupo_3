@@ -52,6 +52,7 @@ public class NPC : MonoBehaviour
             box.SetActive(false);
             contPhrases = -1;
             Player.player.GoFree();
+            Player.player.key++;
         }
         else
         {

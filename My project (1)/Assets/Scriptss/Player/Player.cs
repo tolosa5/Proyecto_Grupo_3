@@ -136,7 +136,7 @@ public class Player : MonoBehaviour
                 }
                 else if (hit.collider.gameObject.CompareTag("Smith"))
                 {
-                    Talking();
+                    Talking();                   
                     //poner un cofre como interactuable para abrirlo y pillar la llave
                 }
 
