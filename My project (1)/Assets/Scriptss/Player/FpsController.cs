@@ -156,7 +156,7 @@ public class FpsController : MonoBehaviour
             float hClamp = Mathf.Clamp(transform.eulerAngles.y, transform.rotation.eulerAngles.y, hlerp);
             transform.eulerAngles = new Vector3(0, hClamp, 0);
 
-            // vaya coñazo las rotaciones
+            // vaya coï¿½azo las rotaciones
 
         }
         else if (h > 0)

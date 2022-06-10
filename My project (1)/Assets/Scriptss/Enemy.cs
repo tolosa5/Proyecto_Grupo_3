@@ -27,6 +27,8 @@ public class Enemy : MonoBehaviour
 
     bool atacando;
 
+    Sword1 enemySword;
+
     //para el overlap, saber si pilla algo de player
     [SerializeField] LayerMask isPlayer;
 
@@ -42,10 +44,15 @@ public class Enemy : MonoBehaviour
         playerGO = GameObject.FindGameObjectWithTag("Player");
 
         anim = GetComponent<Animator>();
+        
+        enemySword = GetComponentInChildren<Sword1>();
     }
 
     void Update()
     {
+        
+        animInfo = anim.GetCurrentAnimatorStateInfo(0);
+
         //animInfo = anim.GetCurrentAnimatorStateInfo(0);
         if(currentState == States.Idle)
         {
@@ -61,27 +68,31 @@ public class Enemy : MonoBehaviour
         }
         else if(currentState == States.Chase)
         {
-            
+            anim.SetBool("BoolWalking", true);
             agent.SetDestination(target);
 
-            if (agent.remainingDistance <= 1f )
+            if (agent.remainingDistance <= 2f )
             {
                 Debug.Log("Attacking");
                 target = playerGO.transform.position;
                 agent.isStopped = true;
+                anim.SetBool("BoolWalking", false);
                 anim.SetBool("AttackingBool", true);
                 //metodo ataque en el momento de la animacion, animation event
             }
-            else if(agent.remainingDistance < distanceToReturn) //5
+            else if (agent.remainingDistance < distanceToReturn && agent.remainingDistance > 2) //5
             {
+                anim.SetBool("AttackingBool", false);
                 Debug.Log("Chasing");
                 target = playerGO.transform.position;
                 agent.isStopped = false;
+                anim.SetBool("BoolWalking", false);
                 onWaitingTimer = 2f;
-                
             }
-            else if (agent.remainingDistance > distanceToReturn) // > que 5.
+            
+            if (agent.remainingDistance > distanceToReturn && agent.remainingDistance > 2) // > que 5.
             {
+                anim.SetBool("AttackingBool", false);
                 Debug.Log("Waiting");
                 target = posInicial;
                 agent.isStopped = true;
@@ -90,19 +101,13 @@ public class Enemy : MonoBehaviour
                 {
                     agent.isStopped = false;
                     Debug.Log("Returning");
-
                 }
-
             }
-            else
+            
+            if (animInfo.IsName("ataque"))
             {
-                //if (!animInfo.IsName("Enemy@Attack"))
-                //{
-                    //agent.isStopped = false;
-                    //anim.SetBool("AttackingBool", false);
-                //}
+                agent.isStopped = true;
             }
-
         }
     }
 
@@ -115,23 +120,14 @@ public class Enemy : MonoBehaviour
 
         float dotProduct = Vector3.Dot(playerGO.transform.forward, transform.forward);
             
-        if(dotProduct < 0 && playerScr.shieldUp)
-        {
-            playerScr.Recoil(transform.forward);
-        }
-            
-        else
-        {
-            playerScr.TakeDamage(damage);
-
-        }
+        enemySword.Atacking();
         
     }
 
     //anim event
     void StopAttack()
     {
-        
+        enemySword.coll.enabled = false;
     }
 
     public void TakeDamage(int enemyDamage)
@@ -141,7 +137,7 @@ public class Enemy : MonoBehaviour
         if (lifes <= 0)
         {
             Debug.Log("noooo chimuelooooo");
-            Death();
+            StartCoroutine(Death());
         }
     }
 
@@ -150,9 +146,13 @@ public class Enemy : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, transform.position - recoilDirection, 3);
     }
 
-    public void Death()
+    public IEnumerator Death()
     {
         anim.SetTrigger("DeathTrigger");
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
+        
+
         //desaparecer, destruirse
     }
 }

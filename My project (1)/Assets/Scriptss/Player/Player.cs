@@ -12,8 +12,9 @@ public class Player : MonoBehaviour
     public static Player player;
     public GameObject prota;
     public bool bowShooting;
+    float lasthit;
 
-    int lifes = 3;
+    public int lifes = 3;
     int totalLifes = 3;
     int recargaVidas;
 
@@ -87,6 +88,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         Inputs();
+        lasthit += Time.deltaTime;
+
     }
 
     void Inputs()
@@ -181,28 +184,29 @@ public class Player : MonoBehaviour
         }
 
         //ATACAR
-        if (Input.GetKeyDown(KeyCode.UpArrow) && sword)
+        if (Input.GetKeyDown(KeyCode.I) && sword && lasthit > 2)
         {
+            lasthit = 0;
             anim.SetTrigger("TriggerSword");
             atacando = true;
             swordScr.Atacking();
         }
 
         //DEFENDERSE
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.K))
         {
 
             anim.SetBool("BoolShield", true);
             shieldUp = true;
         }
-        else if(Input.GetKeyUp(KeyCode.DownArrow))
+        else if(Input.GetKeyUp(KeyCode.K))
         {
             anim.SetBool("BoolShield", false);
             shieldUp = false;
         }
 
         //ARCO
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && bow)
+        if (Input.GetKeyDown(KeyCode.J) && bow)
         {
             swordGO.SetActive(false);
             shieldGO.SetActive(false);
@@ -212,7 +216,7 @@ public class Player : MonoBehaviour
         }
 
         //LANZA
-        if (Input.GetKeyDown(KeyCode.RightArrow) && spear)
+        if (Input.GetKeyDown(KeyCode.L) && spear)
         {
             swordGO.SetActive(false);
             shieldGO.SetActive(false);
@@ -224,7 +228,6 @@ public class Player : MonoBehaviour
 
     void BowShoot()
     {
-        Debug.Break();
         Instantiate(arrow, transform.position + transform.forward, Quaternion.Euler(transform.eulerAngles));
     }
 
@@ -265,15 +268,15 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("BridgeCinematic"))
-        {
-            GoBusy();
-            bridgeCinematic.Play();
-            cinematicTrigger.SetActive(false);
-        }
+        // if (other.gameObject.CompareTag("BridgeCinematic"))
+        // {
+        //     GoBusy();
+        //     bridgeCinematic.Play();
+        //     cinematicTrigger.SetActive(false);
+        // }
 
 
-        else if (other.gameObject.CompareTag("Preassure"))
+        if (other.gameObject.CompareTag("Preassure"))
         {
             DungeonMaster.sharedDM.timesPressed++;
         }
